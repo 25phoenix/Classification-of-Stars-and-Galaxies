@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="264" viewBox="0 0 1200 264" role="img" aria-labelledby="title desc">
+  <title id="title">Two galaxy morphology experiments</title>
+  <desc id="desc">Elliptical versus spiral: 97.22 percent MLP accuracy on 10,674 held-out SDSS DR7 galaxies at K at least 20. Galaxy10: 76.22 percent fine-tuned MobileNetV2 accuracy on 3,545 held-out galaxies. The datasets differ.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071725"/>
+      <stop offset="0.55" stop-color="#0c1d2d"/>
+      <stop offset="1" stop-color="#141a2b"/>
+    </linearGradient>
+    <linearGradient id="left" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#20d5cb"/>
+      <stop offset="1" stop-color="#5ca6cf"/>
+    </linearGradient>
+    <linearGradient id="right" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#eec072"/>
+      <stop offset="1" stop-color="#d98a72"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="262" rx="22" fill="url(#panel)" stroke="#31526a" stroke-width="2"/>
+  <path d="M600 32v200" stroke="#31526a" stroke-width="1"/>
+  <path d="M34 32h532M634 32h532" stroke="#234151" stroke-width="1"/>
+  <circle cx="532" cy="71" r="2.5" fill="#20d5cb" opacity=".8"/>
+  <circle cx="547" cy="100" r="1.5" fill="#f5d099" opacity=".8"/>
+  <circle cx="1100" cy="81" r="2.5" fill="#eec072" opacity=".8"/>
+  <circle cx="1132" cy="107" r="1.4" fill="#20d5cb" opacity=".9"/>
+  <text x="40" y="68" fill="#58d8d2" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="3">01  /  CATALOG RECONSTRUCTION</text>
+  <text x="40" y="109" fill="#eef5f7" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700">Elliptical versus spiral</text>
+  <text x="40" y="185" fill="url(#left)" font-family="Arial,Helvetica,sans-serif" font-size="68" font-weight="700">97.22%</text>
+  <text x="320" y="167" fill="#e8eff3" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700">MLP held-out accuracy</text>
+  <text x="320" y="192" fill="#a6b8c4" font-family="Arial,Helvetica,sans-serif" font-size="15">K ≥ 20 · 10,674 galaxies</text>
+  <rect x="40" y="220" width="526" height="3" rx="1.5" fill="url(#left)"/>
+  <text x="634" y="68" fill="#eec072" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="3">02  /  IMAGE CLASSIFICATION</text>
+  <text x="634" y="109" fill="#eef5f7" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700">Ten Galaxy10 classes</text>
+  <text x="634" y="185" fill="url(#right)" font-family="Arial,Helvetica,sans-serif" font-size="68" font-weight="700">76.22%</text>
+  <text x="914" y="167" fill="#e8eff3" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700">Fine-tuned MobileNetV2</text>
+  <text x="914" y="192" fill="#a6b8c4" font-family="Arial,Helvetica,sans-serif" font-size="15">3,545 held-out galaxies</text>
+  <rect x="634" y="220" width="526" height="3" rx="1.5" fill="url(#right)"/>
+</svg>

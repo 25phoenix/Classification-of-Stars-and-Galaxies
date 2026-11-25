@@ -1,4 +1,21 @@
-# Galaxy Morphology Classification
+<p align="center">
+  <img src="assets/readme/starfield-hero.png" alt="A star-filled sky with teal and amber nebulae" width="100%">
+</p>
+
+<h1 align="center">Galaxy Morphology Classification</h1>
+
+<p align="center"><strong>From measured light profiles to learned visual features.</strong></p>
+
+<p align="center">
+  <a href="#results-at-a-glance">Results</a> &nbsp;·&nbsp;
+  <a href="#what-we-did">Methods</a> &nbsp;·&nbsp;
+  <a href="#repository-guide">Explore the code</a> &nbsp;·&nbsp;
+  <a href="#reproduce-and-inspect">Reproduce</a>
+</p>
+
+<p align="center">
+  <a href="#results-at-a-glance"><img src="assets/readme/result-cards.svg" alt="Two experiments: 97.22% accuracy for elliptical versus spiral and 76.22% for ten-class Galaxy10; different datasets" width="100%"></a>
+</p>
 
 This repository studies **galaxy shapes** in two related but separate tasks:
 
