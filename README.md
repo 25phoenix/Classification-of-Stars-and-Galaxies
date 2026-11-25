@@ -7,9 +7,8 @@ working directory:
   Barchi et al. elliptical-versus-spiral replication.
 - `Sagar/`: MobileNetV2 code, notebooks, model artifacts, and results.
 - `comparison/`: cross-model analysis and figures.
-- `final_presentation/`: presentation files and slide previews.
 - `Paper.pdf`: reference paper.
-- `Paper_Classification.ipynb`, `Cutout Files/`, `data/`, and `results/`:
+- `Paper_Classification.ipynb`, `data/`, and `results/`:
   existing repository experiments and project data.
 
 The original local working directory also contains downloaded raw data,
