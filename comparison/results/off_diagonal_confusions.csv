@@ -1,0 +1,181 @@
+model,true_id,true_class,predicted_id,predicted_class,count,rate_within_true_class
+MobileNetV2,5,Barred Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,102,0.24938875305623473
+MobileNetV2,7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,83,0.1580952380952381
+MobileNetV2,5,Barred Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,80,0.19559902200489
+MobileNetV2,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,74,0.20273972602739726
+MobileNetV2,3,In-between Round Smooth Galaxies,2,Round Smooth Galaxies,73,0.17980295566502463
+MobileNetV2,2,Round Smooth Galaxies,3,In-between Round Smooth Galaxies,71,0.1342155009451796
+MobileNetV2,0,Disturbed Galaxies,7,Unbarred Loose Spiral Galaxies,67,0.3087557603686636
+MobileNetV2,1,Merging Galaxies,2,Round Smooth Galaxies,52,0.14054054054054055
+MobileNetV2,7,Unbarred Loose Spiral Galaxies,5,Barred Spiral Galaxies,51,0.09714285714285714
+MobileNetV2,1,Merging Galaxies,7,Unbarred Loose Spiral Galaxies,39,0.10540540540540541
+MobileNetV2,3,In-between Round Smooth Galaxies,1,Merging Galaxies,37,0.09113300492610837
+MobileNetV2,1,Merging Galaxies,3,In-between Round Smooth Galaxies,36,0.0972972972972973
+MobileNetV2,0,Disturbed Galaxies,3,In-between Round Smooth Galaxies,35,0.16129032258064516
+MobileNetV2,8,Edge-on Galaxies without Bulge,9,Edge-on Galaxies with Bulge,35,0.12323943661971831
+MobileNetV2,9,Edge-on Galaxies with Bulge,8,Edge-on Galaxies without Bulge,34,0.09066666666666667
+MobileNetV2,2,Round Smooth Galaxies,1,Merging Galaxies,32,0.06049149338374291
+MobileNetV2,6,Unbarred Tight Spiral Galaxies,5,Barred Spiral Galaxies,31,0.08493150684931507
+MobileNetV2,7,Unbarred Loose Spiral Galaxies,1,Merging Galaxies,31,0.05904761904761905
+MobileNetV2,7,Unbarred Loose Spiral Galaxies,3,In-between Round Smooth Galaxies,30,0.05714285714285714
+MobileNetV2,1,Merging Galaxies,9,Edge-on Galaxies with Bulge,27,0.07297297297297298
+MobileNetV2,2,Round Smooth Galaxies,7,Unbarred Loose Spiral Galaxies,27,0.05103969754253308
+MobileNetV2,3,In-between Round Smooth Galaxies,7,Unbarred Loose Spiral Galaxies,27,0.0665024630541872
+MobileNetV2,0,Disturbed Galaxies,2,Round Smooth Galaxies,23,0.10599078341013825
+MobileNetV2,0,Disturbed Galaxies,1,Merging Galaxies,21,0.0967741935483871
+MobileNetV2,5,Barred Spiral Galaxies,3,In-between Round Smooth Galaxies,21,0.05134474327628362
+MobileNetV2,0,Disturbed Galaxies,6,Unbarred Tight Spiral Galaxies,20,0.09216589861751152
+MobileNetV2,5,Barred Spiral Galaxies,1,Merging Galaxies,20,0.0488997555012225
+MobileNetV2,6,Unbarred Tight Spiral Galaxies,2,Round Smooth Galaxies,20,0.0547945205479452
+MobileNetV2,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,18,0.03428571428571429
+MobileNetV2,7,Unbarred Loose Spiral Galaxies,2,Round Smooth Galaxies,18,0.03428571428571429
+MobileNetV2,4,Cigar Shaped Smooth Galaxies,9,Edge-on Galaxies with Bulge,17,0.26153846153846155
+MobileNetV2,9,Edge-on Galaxies with Bulge,1,Merging Galaxies,17,0.04533333333333334
+MobileNetV2,2,Round Smooth Galaxies,6,Unbarred Tight Spiral Galaxies,16,0.030245746691871456
+MobileNetV2,1,Merging Galaxies,6,Unbarred Tight Spiral Galaxies,15,0.04054054054054054
+MobileNetV2,7,Unbarred Loose Spiral Galaxies,8,Edge-on Galaxies without Bulge,15,0.02857142857142857
+MobileNetV2,0,Disturbed Galaxies,5,Barred Spiral Galaxies,14,0.06451612903225806
+MobileNetV2,9,Edge-on Galaxies with Bulge,3,In-between Round Smooth Galaxies,14,0.037333333333333336
+MobileNetV2,4,Cigar Shaped Smooth Galaxies,3,In-between Round Smooth Galaxies,13,0.2
+MobileNetV2,6,Unbarred Tight Spiral Galaxies,1,Merging Galaxies,13,0.03561643835616438
+MobileNetV2,5,Barred Spiral Galaxies,2,Round Smooth Galaxies,12,0.029339853300733496
+MobileNetV2,1,Merging Galaxies,8,Edge-on Galaxies without Bulge,9,0.024324324324324326
+MobileNetV2,3,In-between Round Smooth Galaxies,6,Unbarred Tight Spiral Galaxies,8,0.019704433497536946
+MobileNetV2,5,Barred Spiral Galaxies,0,Disturbed Galaxies,8,0.019559902200488997
+MobileNetV2,7,Unbarred Loose Spiral Galaxies,9,Edge-on Galaxies with Bulge,8,0.015238095238095238
+MobileNetV2,0,Disturbed Galaxies,9,Edge-on Galaxies with Bulge,7,0.03225806451612903
+MobileNetV2,1,Merging Galaxies,5,Barred Spiral Galaxies,7,0.01891891891891892
+MobileNetV2,5,Barred Spiral Galaxies,9,Edge-on Galaxies with Bulge,7,0.017114914425427872
+MobileNetV2,6,Unbarred Tight Spiral Galaxies,3,In-between Round Smooth Galaxies,7,0.019178082191780823
+MobileNetV2,2,Round Smooth Galaxies,5,Barred Spiral Galaxies,6,0.011342155009451797
+MobileNetV2,3,In-between Round Smooth Galaxies,9,Edge-on Galaxies with Bulge,6,0.014778325123152709
+MobileNetV2,0,Disturbed Galaxies,8,Edge-on Galaxies without Bulge,5,0.02304147465437788
+MobileNetV2,9,Edge-on Galaxies with Bulge,6,Unbarred Tight Spiral Galaxies,5,0.013333333333333334
+MobileNetV2,1,Merging Galaxies,0,Disturbed Galaxies,4,0.010810810810810811
+MobileNetV2,3,In-between Round Smooth Galaxies,0,Disturbed Galaxies,4,0.009852216748768473
+MobileNetV2,3,In-between Round Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,4,0.009852216748768473
+MobileNetV2,4,Cigar Shaped Smooth Galaxies,7,Unbarred Loose Spiral Galaxies,4,0.06153846153846154
+MobileNetV2,7,Unbarred Loose Spiral Galaxies,4,Cigar Shaped Smooth Galaxies,4,0.007619047619047619
+MobileNetV2,8,Edge-on Galaxies without Bulge,6,Unbarred Tight Spiral Galaxies,4,0.014084507042253521
+MobileNetV2,8,Edge-on Galaxies without Bulge,7,Unbarred Loose Spiral Galaxies,4,0.014084507042253521
+MobileNetV2,9,Edge-on Galaxies with Bulge,2,Round Smooth Galaxies,4,0.010666666666666666
+MobileNetV2,9,Edge-on Galaxies with Bulge,4,Cigar Shaped Smooth Galaxies,4,0.010666666666666666
+MobileNetV2,9,Edge-on Galaxies with Bulge,7,Unbarred Loose Spiral Galaxies,4,0.010666666666666666
+MobileNetV2,0,Disturbed Galaxies,4,Cigar Shaped Smooth Galaxies,3,0.013824884792626729
+MobileNetV2,4,Cigar Shaped Smooth Galaxies,0,Disturbed Galaxies,3,0.046153846153846156
+MobileNetV2,4,Cigar Shaped Smooth Galaxies,1,Merging Galaxies,3,0.046153846153846156
+MobileNetV2,4,Cigar Shaped Smooth Galaxies,5,Barred Spiral Galaxies,3,0.046153846153846156
+MobileNetV2,4,Cigar Shaped Smooth Galaxies,8,Edge-on Galaxies without Bulge,3,0.046153846153846156
+MobileNetV2,5,Barred Spiral Galaxies,4,Cigar Shaped Smooth Galaxies,3,0.007334963325183374
+MobileNetV2,6,Unbarred Tight Spiral Galaxies,4,Cigar Shaped Smooth Galaxies,3,0.00821917808219178
+MobileNetV2,6,Unbarred Tight Spiral Galaxies,8,Edge-on Galaxies without Bulge,3,0.00821917808219178
+MobileNetV2,6,Unbarred Tight Spiral Galaxies,9,Edge-on Galaxies with Bulge,3,0.00821917808219178
+MobileNetV2,8,Edge-on Galaxies without Bulge,1,Merging Galaxies,3,0.01056338028169014
+MobileNetV2,2,Round Smooth Galaxies,0,Disturbed Galaxies,2,0.003780718336483932
+MobileNetV2,3,In-between Round Smooth Galaxies,5,Barred Spiral Galaxies,2,0.0049261083743842365
+MobileNetV2,8,Edge-on Galaxies without Bulge,5,Barred Spiral Galaxies,2,0.007042253521126761
+MobileNetV2,9,Edge-on Galaxies with Bulge,0,Disturbed Galaxies,2,0.005333333333333333
+MobileNetV2,2,Round Smooth Galaxies,9,Edge-on Galaxies with Bulge,1,0.001890359168241966
+MobileNetV2,3,In-between Round Smooth Galaxies,8,Edge-on Galaxies without Bulge,1,0.0024630541871921183
+MobileNetV2,4,Cigar Shaped Smooth Galaxies,2,Round Smooth Galaxies,1,0.015384615384615385
+MobileNetV2,5,Barred Spiral Galaxies,8,Edge-on Galaxies without Bulge,1,0.0024449877750611247
+MobileNetV2,6,Unbarred Tight Spiral Galaxies,0,Disturbed Galaxies,1,0.0027397260273972603
+MobileNetV2,9,Edge-on Galaxies with Bulge,5,Barred Spiral Galaxies,1,0.0026666666666666666
+MobileNetV2,1,Merging Galaxies,4,Cigar Shaped Smooth Galaxies,0,0.0
+MobileNetV2,2,Round Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0,0.0
+MobileNetV2,2,Round Smooth Galaxies,8,Edge-on Galaxies without Bulge,0,0.0
+MobileNetV2,4,Cigar Shaped Smooth Galaxies,6,Unbarred Tight Spiral Galaxies,0,0.0
+MobileNetV2,8,Edge-on Galaxies without Bulge,0,Disturbed Galaxies,0,0.0
+MobileNetV2,8,Edge-on Galaxies without Bulge,2,Round Smooth Galaxies,0,0.0
+MobileNetV2,8,Edge-on Galaxies without Bulge,3,In-between Round Smooth Galaxies,0,0.0
+MobileNetV2,8,Edge-on Galaxies without Bulge,4,Cigar Shaped Smooth Galaxies,0,0.0
+Random Forest,5,Barred Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,73,0.1784841075794621
+Random Forest,7,Unbarred Loose Spiral Galaxies,1,Merging Galaxies,72,0.13714285714285715
+Random Forest,7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,71,0.13523809523809524
+Random Forest,5,Barred Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,63,0.15403422982885084
+Random Forest,7,Unbarred Loose Spiral Galaxies,5,Barred Spiral Galaxies,60,0.11428571428571428
+Random Forest,6,Unbarred Tight Spiral Galaxies,5,Barred Spiral Galaxies,58,0.1589041095890411
+Random Forest,3,In-between Round Smooth Galaxies,2,Round Smooth Galaxies,56,0.13793103448275862
+Random Forest,0,Disturbed Galaxies,7,Unbarred Loose Spiral Galaxies,49,0.22580645161290322
+Random Forest,6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,49,0.13424657534246576
+Random Forest,3,In-between Round Smooth Galaxies,1,Merging Galaxies,43,0.10591133004926108
+Random Forest,5,Barred Spiral Galaxies,1,Merging Galaxies,42,0.10268948655256724
+Random Forest,9,Edge-on Galaxies with Bulge,8,Edge-on Galaxies without Bulge,40,0.10666666666666667
+Random Forest,2,Round Smooth Galaxies,3,In-between Round Smooth Galaxies,39,0.07372400756143667
+Random Forest,2,Round Smooth Galaxies,1,Merging Galaxies,38,0.07183364839319471
+Random Forest,6,Unbarred Tight Spiral Galaxies,2,Round Smooth Galaxies,35,0.0958904109589041
+Random Forest,8,Edge-on Galaxies without Bulge,9,Edge-on Galaxies with Bulge,34,0.11971830985915492
+Random Forest,7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,33,0.06285714285714286
+Random Forest,0,Disturbed Galaxies,1,Merging Galaxies,31,0.14285714285714285
+Random Forest,6,Unbarred Tight Spiral Galaxies,1,Merging Galaxies,30,0.0821917808219178
+Random Forest,7,Unbarred Loose Spiral Galaxies,3,In-between Round Smooth Galaxies,30,0.05714285714285714
+Random Forest,0,Disturbed Galaxies,2,Round Smooth Galaxies,23,0.10599078341013825
+Random Forest,0,Disturbed Galaxies,3,In-between Round Smooth Galaxies,23,0.10599078341013825
+Random Forest,9,Edge-on Galaxies with Bulge,1,Merging Galaxies,23,0.06133333333333333
+Random Forest,1,Merging Galaxies,7,Unbarred Loose Spiral Galaxies,22,0.05945945945945946
+Random Forest,2,Round Smooth Galaxies,6,Unbarred Tight Spiral Galaxies,22,0.04158790170132325
+Random Forest,4,Cigar Shaped Smooth Galaxies,9,Edge-on Galaxies with Bulge,21,0.3230769230769231
+Random Forest,5,Barred Spiral Galaxies,3,In-between Round Smooth Galaxies,20,0.0488997555012225
+Random Forest,7,Unbarred Loose Spiral Galaxies,2,Round Smooth Galaxies,20,0.0380952380952381
+Random Forest,7,Unbarred Loose Spiral Galaxies,9,Edge-on Galaxies with Bulge,20,0.0380952380952381
+Random Forest,1,Merging Galaxies,2,Round Smooth Galaxies,19,0.051351351351351354
+Random Forest,2,Round Smooth Galaxies,7,Unbarred Loose Spiral Galaxies,19,0.035916824196597356
+Random Forest,5,Barred Spiral Galaxies,2,Round Smooth Galaxies,19,0.04645476772616137
+Random Forest,1,Merging Galaxies,0,Disturbed Galaxies,18,0.04864864864864865
+Random Forest,3,In-between Round Smooth Galaxies,6,Unbarred Tight Spiral Galaxies,18,0.04433497536945813
+Random Forest,9,Edge-on Galaxies with Bulge,4,Cigar Shaped Smooth Galaxies,18,0.048
+Random Forest,0,Disturbed Galaxies,9,Edge-on Galaxies with Bulge,17,0.07834101382488479
+Random Forest,3,In-between Round Smooth Galaxies,0,Disturbed Galaxies,16,0.03940886699507389
+Random Forest,9,Edge-on Galaxies with Bulge,3,In-between Round Smooth Galaxies,16,0.042666666666666665
+Random Forest,1,Merging Galaxies,3,In-between Round Smooth Galaxies,14,0.03783783783783784
+Random Forest,3,In-between Round Smooth Galaxies,7,Unbarred Loose Spiral Galaxies,14,0.034482758620689655
+Random Forest,7,Unbarred Loose Spiral Galaxies,8,Edge-on Galaxies without Bulge,14,0.02666666666666667
+Random Forest,2,Round Smooth Galaxies,0,Disturbed Galaxies,13,0.024574669187145556
+Random Forest,9,Edge-on Galaxies with Bulge,7,Unbarred Loose Spiral Galaxies,13,0.034666666666666665
+Random Forest,2,Round Smooth Galaxies,5,Barred Spiral Galaxies,12,0.022684310018903593
+Random Forest,0,Disturbed Galaxies,5,Barred Spiral Galaxies,11,0.05069124423963134
+Random Forest,8,Edge-on Galaxies without Bulge,1,Merging Galaxies,11,0.03873239436619718
+Random Forest,0,Disturbed Galaxies,6,Unbarred Tight Spiral Galaxies,10,0.04608294930875576
+Random Forest,5,Barred Spiral Galaxies,0,Disturbed Galaxies,10,0.02444987775061125
+Random Forest,9,Edge-on Galaxies with Bulge,6,Unbarred Tight Spiral Galaxies,10,0.02666666666666667
+Random Forest,1,Merging Galaxies,5,Barred Spiral Galaxies,9,0.024324324324324326
+Random Forest,6,Unbarred Tight Spiral Galaxies,3,In-between Round Smooth Galaxies,9,0.024657534246575342
+Random Forest,6,Unbarred Tight Spiral Galaxies,4,Cigar Shaped Smooth Galaxies,9,0.024657534246575342
+Random Forest,1,Merging Galaxies,8,Edge-on Galaxies without Bulge,8,0.021621621621621623
+Random Forest,1,Merging Galaxies,9,Edge-on Galaxies with Bulge,7,0.01891891891891892
+Random Forest,9,Edge-on Galaxies with Bulge,0,Disturbed Galaxies,7,0.018666666666666668
+Random Forest,4,Cigar Shaped Smooth Galaxies,3,In-between Round Smooth Galaxies,6,0.09230769230769231
+Random Forest,4,Cigar Shaped Smooth Galaxies,7,Unbarred Loose Spiral Galaxies,6,0.09230769230769231
+Random Forest,5,Barred Spiral Galaxies,9,Edge-on Galaxies with Bulge,6,0.014669926650366748
+Random Forest,6,Unbarred Tight Spiral Galaxies,8,Edge-on Galaxies without Bulge,6,0.01643835616438356
+Random Forest,7,Unbarred Loose Spiral Galaxies,4,Cigar Shaped Smooth Galaxies,6,0.011428571428571429
+Random Forest,1,Merging Galaxies,6,Unbarred Tight Spiral Galaxies,5,0.013513513513513514
+Random Forest,3,In-between Round Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,5,0.012315270935960592
+Random Forest,3,In-between Round Smooth Galaxies,9,Edge-on Galaxies with Bulge,5,0.012315270935960592
+Random Forest,5,Barred Spiral Galaxies,4,Cigar Shaped Smooth Galaxies,5,0.012224938875305624
+Random Forest,6,Unbarred Tight Spiral Galaxies,0,Disturbed Galaxies,5,0.0136986301369863
+Random Forest,9,Edge-on Galaxies with Bulge,2,Round Smooth Galaxies,5,0.013333333333333334
+Random Forest,0,Disturbed Galaxies,4,Cigar Shaped Smooth Galaxies,4,0.018433179723502304
+Random Forest,8,Edge-on Galaxies without Bulge,4,Cigar Shaped Smooth Galaxies,4,0.014084507042253521
+Random Forest,9,Edge-on Galaxies with Bulge,5,Barred Spiral Galaxies,4,0.010666666666666666
+Random Forest,0,Disturbed Galaxies,8,Edge-on Galaxies without Bulge,3,0.013824884792626729
+Random Forest,3,In-between Round Smooth Galaxies,5,Barred Spiral Galaxies,3,0.007389162561576354
+Random Forest,4,Cigar Shaped Smooth Galaxies,2,Round Smooth Galaxies,3,0.046153846153846156
+Random Forest,5,Barred Spiral Galaxies,8,Edge-on Galaxies without Bulge,3,0.007334963325183374
+Random Forest,6,Unbarred Tight Spiral Galaxies,9,Edge-on Galaxies with Bulge,3,0.00821917808219178
+Random Forest,1,Merging Galaxies,4,Cigar Shaped Smooth Galaxies,2,0.005405405405405406
+Random Forest,2,Round Smooth Galaxies,9,Edge-on Galaxies with Bulge,2,0.003780718336483932
+Random Forest,4,Cigar Shaped Smooth Galaxies,0,Disturbed Galaxies,2,0.03076923076923077
+Random Forest,4,Cigar Shaped Smooth Galaxies,6,Unbarred Tight Spiral Galaxies,2,0.03076923076923077
+Random Forest,4,Cigar Shaped Smooth Galaxies,8,Edge-on Galaxies without Bulge,2,0.03076923076923077
+Random Forest,8,Edge-on Galaxies without Bulge,6,Unbarred Tight Spiral Galaxies,2,0.007042253521126761
+Random Forest,2,Round Smooth Galaxies,8,Edge-on Galaxies without Bulge,1,0.001890359168241966
+Random Forest,4,Cigar Shaped Smooth Galaxies,1,Merging Galaxies,1,0.015384615384615385
+Random Forest,4,Cigar Shaped Smooth Galaxies,5,Barred Spiral Galaxies,1,0.015384615384615385
+Random Forest,8,Edge-on Galaxies without Bulge,0,Disturbed Galaxies,1,0.0035211267605633804
+Random Forest,8,Edge-on Galaxies without Bulge,5,Barred Spiral Galaxies,1,0.0035211267605633804
+Random Forest,8,Edge-on Galaxies without Bulge,7,Unbarred Loose Spiral Galaxies,1,0.0035211267605633804
+Random Forest,2,Round Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0,0.0
+Random Forest,3,In-between Round Smooth Galaxies,8,Edge-on Galaxies without Bulge,0,0.0
+Random Forest,8,Edge-on Galaxies without Bulge,2,Round Smooth Galaxies,0,0.0
+Random Forest,8,Edge-on Galaxies without Bulge,3,In-between Round Smooth Galaxies,0,0.0

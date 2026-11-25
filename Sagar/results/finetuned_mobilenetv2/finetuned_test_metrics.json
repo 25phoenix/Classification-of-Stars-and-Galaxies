@@ -1,0 +1,87 @@
+{
+  "accuracy": 0.7622002820874471,
+  "macro_f1": 0.7342220992202395,
+  "num_samples": 3545,
+  "per_class": [
+    {
+      "class_id": 0,
+      "class_name": "Disturbed Galaxies",
+      "precision": 0.46,
+      "recall": 0.31797235023041476,
+      "f1": 0.3760217983651226,
+      "support": 217
+    },
+    {
+      "class_id": 1,
+      "class_name": "Merging Galaxies",
+      "precision": 0.8222222222222222,
+      "recall": 0.8,
+      "f1": 0.810958904109589,
+      "support": 370
+    },
+    {
+      "class_id": 2,
+      "class_name": "Round Smooth Galaxies",
+      "precision": 0.7914691943127962,
+      "recall": 0.947069943289225,
+      "f1": 0.8623063683304647,
+      "support": 529
+    },
+    {
+      "class_id": 3,
+      "class_name": "In-between Round Smooth Galaxies",
+      "precision": 0.7704194260485652,
+      "recall": 0.8596059113300493,
+      "f1": 0.8125727590221188,
+      "support": 406
+    },
+    {
+      "class_id": 4,
+      "class_name": "Cigar Shaped Smooth Galaxies",
+      "precision": 0.6417910447761194,
+      "recall": 0.6615384615384615,
+      "f1": 0.6515151515151515,
+      "support": 65
+    },
+    {
+      "class_id": 5,
+      "class_name": "Barred Spiral Galaxies",
+      "precision": 0.7684729064039408,
+      "recall": 0.7628361858190709,
+      "f1": 0.7656441717791411,
+      "support": 409
+    },
+    {
+      "class_id": 6,
+      "class_name": "Unbarred Tight Spiral Galaxies",
+      "precision": 0.7380952380952381,
+      "recall": 0.5945205479452055,
+      "f1": 0.6585735963581184,
+      "support": 365
+    },
+    {
+      "class_id": 7,
+      "class_name": "Unbarred Loose Spiral Galaxies",
+      "precision": 0.6317907444668008,
+      "recall": 0.5980952380952381,
+      "f1": 0.6144814090019569,
+      "support": 525
+    },
+    {
+      "class_id": 8,
+      "class_name": "Edge-on Galaxies without Bulge",
+      "precision": 0.8982456140350877,
+      "recall": 0.9014084507042254,
+      "f1": 0.8998242530755711,
+      "support": 284
+    },
+    {
+      "class_id": 9,
+      "class_name": "Edge-on Galaxies with Bulge",
+      "precision": 0.8625,
+      "recall": 0.92,
+      "f1": 0.8903225806451613,
+      "support": 375
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "difference_direction": "MobileNetV2 minus Random Forest",
+  "rows": 3545,
+  "paired_outcomes": {
+    "both_correct": 1334,
+    "rf_only_correct": 625,
+    "mobile_only_correct": 663,
+    "both_wrong": 923
+  },
+  "prediction_agreement_count": 1689,
+  "prediction_agreement_fraction": 0.4764456981664316,
+  "mcnemar": {
+    "method": "Exact two-sided conditional binomial test",
+    "rf_only_correct": 625,
+    "mobile_only_correct": 663,
+    "total_discordant": 1288,
+    "p_value": 0.30255544058640055,
+    "assumption": "Independent row pairs and equal orientations of discordance under the null."
+  },
+  "preferred_group_bootstrap": {
+    "seed": 20261124,
+    "rng": "NumPy default_rng (PCG64)",
+    "replicates": 20000,
+    "groups": 3535,
+    "confidence_level": 0.95,
+    "method": "Percentile intervals. Uniformly sample groups with replacement, drawing the original number of groups. Retain all rows and both predictions in each sampled group. Replicate row counts may vary.",
+    "estimand": "Row-weighted accuracy and fixed-ten-class Macro-F1 differences, conditional on the fitted models.",
+    "intervals": {
+      "accuracy": {
+        "estimate": 0.010719322990127012,
+        "lower": -0.009019165727170209,
+        "upper": 0.03018335684062057
+      },
+      "macro_f1": {
+        "estimate": 0.004529602156199464,
+        "lower": -0.018673324572211946,
+        "upper": 0.027478875082362818
+      }
+    }
+  },
+  "group_randomization_sensitivity": {
+    "method": "Exact two-sided within-group model-label swap for accuracy",
+    "groups_with_nonzero_signed_difference": 1284,
+    "absolute_group_difference_frequencies": {
+      "1": 1284
+    },
+    "observed_net_correct_mobile_minus_rf": 38,
+    "p_value": 0.30180345117547375,
+    "assumption": "Joint model labels are exchangeable within independent groups under the null."
+  }
+}

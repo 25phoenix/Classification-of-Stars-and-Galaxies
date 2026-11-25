@@ -1,0 +1,29 @@
+{
+  "seed": 42,
+  "features": [
+    "c",
+    "a",
+    "s",
+    "g2",
+    "h"
+  ],
+  "input_sha256": {
+    "Barchi19_Morph-catalog_670k-galaxies.zip": "14befa3e9a34833cf1e20f1e31317e228f50b5888f5cc21ae9843aa9abbf7995",
+    "GalaxyZoo1_DR_table2.csv.gz": "5121e43f502856c9f73e31934a6e7d7282669c3ae065564a31f5d5115f45541d"
+  },
+  "sklearn_version": "1.7.2",
+  "parameters": {
+    "max_depth": 12,
+    "min_samples_leaf": 5
+  },
+  "scope": "catalog-based classical ML reproduction; no image extraction or CNN",
+  "metrics": {
+    "accuracy": 0.9369516425219343,
+    "balanced_accuracy": 0.8966184905760844,
+    "macro_f1": 0.8980681388634315,
+    "majority_accuracy": 0.8078963476841461,
+    "test_rows": 9802,
+    "K_min": 20,
+    "selected_model": "Decision tree"
+  }
+}

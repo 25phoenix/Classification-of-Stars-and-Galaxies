@@ -1,0 +1,249 @@
+{
+  "dataset": "Galaxy10 DECaLS",
+  "inputs_sha256": {
+    "Kishore/cache/e8df679132d6afe00b188fb70011d5ab6334b0a6f25d6bdccaeda99ae1a476a4/dataset.json": "e9d22ccd6a948e25330ade871255a0b1d3770d246cdc7dc791454b284fe5e69e",
+    "Kishore/cache/e8df679132d6afe00b188fb70011d5ab6334b0a6f25d6bdccaeda99ae1a476a4/features.csv": "178bbe841bd5a5c1e4bd3af8524d5185b167c71d5a105ab463f9fe3abb893866",
+    "Kishore/data/raw/Galaxy10_DECals.h5": "19aefc477c41bb7f77ff07599a6b82a038dc042f889a111b0d4d98bb755c1571",
+    "Kishore/data_io.py": "8f9c83f1a47778b5cef30ee21a9b69c916430ec8ec8c9823539e3050e3a12fe1",
+    "Kishore/morphology.py": "e9b78b486b078c6972ce78cc19f0c61e176a27c353c758e1a349b600097545ec",
+    "Kishore/results/final/class_mapping.json": "dba63bd08469ebbcbe91dfa027ebe666a2938a39ab8f1a6725d8a915efe2ea4d",
+    "Kishore/results/final/dataset.json": "e9d22ccd6a948e25330ade871255a0b1d3770d246cdc7dc791454b284fe5e69e",
+    "Kishore/results/final/metrics.json": "e385977c0ab34dd984d17647f3f5e801a378c5b7a63fd69afe6db53aea0cce3e",
+    "Kishore/results/final/model.joblib": "bb4ae7774f4884a9c0b17c43c53406868d07d240e7ef0b7dcee072b339bfa036",
+    "Kishore/results/final/model_metadata.json": "0ef1a9121fcbaf8d8fa0202870bd4cf910a4256394718e3bb7bbfd4f4bbe4912",
+    "Kishore/results/final/split_assignments.csv": "47e842d5a31837db8fe43f852b3d5f83e3ffc9ee79398b7a528bb88bf93a3de8",
+    "Kishore/results/final/splits.json": "3019bad56d5014490366510d2956c82d1da74effb2ac0dd025088cb3c08ca884",
+    "Kishore/results/final/test_predictions.csv": "c45a1a18a6828fb86c87fc3600a2b6118ef031d75376f04af991cadd59a61c30",
+    "Sagar/handoff/HANDOFF_VERIFICATION.md": "b95c7649e9423476dee4d659f7eed11c95e4f3466be444f9a99f6bcb303bf028",
+    "Sagar/handoff/file_manifest.json": "f58f30f2f8ef378ef35dba30957632057dfaf8b11f890cd16666db128af0d10f",
+    "Sagar/results/frozen_baseline_full/head_model.keras": "1a6e5b762824993907414162694b5f285c86e56f2b66e553192cc1e1c51437c8",
+    "Sagar/results/frozen_baseline_full/model_config.json": "d4c3b5d0e4b4d827a147093d65a87de3ed55102dd32d277c2683b345386b0913",
+    "Sagar/results/frozen_baseline_full/provenance.json": "f3e0a7097e49d99b30ea856dc23d772a87d918d26c2a6cf731458273ab1b20f3",
+    "Sagar/results/frozen_baseline_full/test_metrics.json": "6ca1c1bdf61ae49ecf87b53bab7b7d6a344dc68f0169f2198cb29a00180c8279",
+    "Sagar/results/frozen_baseline_full/test_predictions.csv": "3cd387d4317e78e835ad951b4804128ef28ae540aaa550b28f1dc2e6a14273e6",
+    "Sagar/src/config.py": "621baebfada1cb9b5d641ac6e47f20fd800cca8a9637547aaf053831915a2a9e",
+    "Sagar/src/data_contract.py": "848612c27a25198811f09c889625d4e8887933f725b819537dd4540766d993ce",
+    "Sagar/src/embeddings.py": "2158c4fdf918ed172ed53aa80eb0ce68af6390b101ec4710efb5ffe967840dc7",
+    "Sagar/src/train_baseline.py": "241e9f845c4f5b42fe96da63eaa67d5f22091a90ae95fd80e49c10151dc74696",
+    "Sagar/results/finetuned_mobilenetv2/README_FINETUNING_ADDENDUM.md": "f116635da13aa29bbbd39252541832eeba8fa51d86eb7f85562f04a7d713a34c",
+    "Sagar/results/finetuned_mobilenetv2/finetune_config_and_timings.json": "efa499e4758feefaa1099880a19d868dbe20f883102f77ed480fc633c3f9ade3",
+    "Sagar/results/finetuned_mobilenetv2/finetuned_results_report.md": "4c88a3e1cb9b6156a4cbe5197e2db1bc98b0f42bf2adbf79b8ca46d0348aa1ff",
+    "Sagar/results/finetuned_mobilenetv2/finetuned_test_confusion_matrix_normalized.csv": "949990b78602716144c18f54a6fd79fab8e676dc527a64d655903e8bf070b384",
+    "Sagar/results/finetuned_mobilenetv2/finetuned_test_confusion_matrix_raw.csv": "858f3f20f75d1b0cb0a87ddb9510164d0a6d1eb01dccf6bcad6725e3bbb7e5ef",
+    "Sagar/results/finetuned_mobilenetv2/finetuned_test_metrics.json": "4f06041c1054182982146adcfadf9003cef5865e759d65658d9f265aab3a3079",
+    "Sagar/results/finetuned_mobilenetv2/finetuned_test_per_class_metrics.csv": "0b22afbf6676f9ffe4e51b67b9b57fa238e2a8ed2b0d512238dc49e9c900c8ee",
+    "Sagar/results/finetuned_mobilenetv2/finetuned_test_predictions.csv": "5ed75574d7b0b9ee729f3abb1b8b530416f6b22504081011afa7db0d232da235",
+    "Sagar/results/finetuned_mobilenetv2/finetuned_learning_curves.png": "f82fc4fc10f3a99d8df596cae9cd78a0934e39db31220046723ad8b895697baf",
+    "Sagar/results/finetuned_mobilenetv2/finetuned_prediction_gallery.png": "8423e02c028b2e5de699ae4525e2044d3ce286a2785a7eb00d667a57244edeab",
+    "Sagar/results/finetuned_mobilenetv2/finetuned_test_confusion_matrices.png": "559775fe1d1eb021b9270ce95b94aade1ca368bf4540df4ad4ab82d1388fab99",
+    "Sagar/Sagar_FineTuned_Only_For_Kishore.zip": "7cadaad9d62925c73339cff75933b30cd5c20cdac63bfc59fa68c52853c92812",
+    "comparison/results/statistical_tests.json": "7edba32a4b9ec2997555628f2774e4d35660166e9bd6425f051447b7c143ab67",
+    "comparison/src/comparison_analysis.py": "482a4fc669d3a7646204ff5d3b88d794a6ef6f8e30057346a35a86c11799bafc",
+    "Sagar/src/finetune_optional.py": "e75ec8e89ef218d800a89b4aaa19a1d326295329aac9324d4db12c2bc8007f6a"
+  },
+  "analysis_source_sha256": "a66bb0f22c8fc929a385d7547d674226254ddeb04e95df6bc9735b159c715824",
+  "rf_feature_order": [
+    "concentration",
+    "asymmetry",
+    "smoothness",
+    "entropy",
+    "gini",
+    "m20",
+    "ellipticity"
+  ],
+  "rf_feature_settings": {
+    "size": 128,
+    "border_fraction": 0.125,
+    "detection_sigma": 2.5,
+    "minimum_noise": 0.00392156862745098,
+    "central_fraction": 0.18,
+    "aperture_multiplier": 2.5,
+    "entropy_bins": 32
+  },
+  "rf_selected_parameters": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "class_weight": "balanced_subsample",
+    "criterion": "gini",
+    "max_depth": 14,
+    "max_features": "sqrt",
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 2,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 160,
+    "n_jobs": 1,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "mobilenetv2_configuration": {
+    "experiment_type": "frozen_mobilenetv2_baseline",
+    "mode": "full",
+    "exploratory_reduced_protocol": false,
+    "backbone": "tf.keras.applications.MobileNetV2",
+    "weights": "imagenet",
+    "weights_fingerprint_sha256": "c009b1f1262c1f55420ed4f95d0f338acb97548930c6f6c8f3383b79544088a8",
+    "image_size": 224,
+    "preprocessing": "rgb_uint8_0_255 -> tf.image.resize(bilinear) -> tf.keras.applications.mobilenet_v2.preprocess_input(-1_to_1)",
+    "augmentation_active": false,
+    "selected_hparams": {
+      "hidden_units": 0,
+      "dropout": 0.2,
+      "learning_rate": 0.001,
+      "l2_reg": 0.0001,
+      "use_class_weight": false
+    },
+    "refit_epochs": 18,
+    "refit_epoch_rule": "ceil(median(final_tuning_fold_best_epochs))",
+    "class_names": {
+      "0": "Disturbed Galaxies",
+      "1": "Merging Galaxies",
+      "2": "Round Smooth Galaxies",
+      "3": "In-between Round Smooth Galaxies",
+      "4": "Cigar Shaped Smooth Galaxies",
+      "5": "Barred Spiral Galaxies",
+      "6": "Unbarred Tight Spiral Galaxies",
+      "7": "Unbarred Loose Spiral Galaxies",
+      "8": "Edge-on Galaxies without Bulge",
+      "9": "Edge-on Galaxies with Bulge"
+    }
+  },
+  "python": "3.10.12",
+  "platform": "Linux-6.18.58.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.7",
+    "h5py": "3.15.1"
+  },
+  "bootstrap_seed": 20261124,
+  "bootstrap_replicates": 20000,
+  "fine_tuned_configuration": {
+    "experiment_type": "optional_two_stage_end_to_end_finetuning",
+    "preprocessing": "rgb_uint8_0_255 -> tf.image.resize(bilinear) -> tf.keras.applications.mobilenet_v2.preprocess_input(-1_to_1)",
+    "mixed_precision_float16": true,
+    "augmentation_active_training_only": true,
+    "batchnorm_frozen": true,
+    "batch_size": 16,
+    "warmup_epochs": 5,
+    "warmup_lr": 0.001,
+    "unfreeze_top_layers": 40,
+    "unfrozen_non_bn_layers": 27,
+    "finetune_lr": 0.0001,
+    "use_class_weight": false,
+    "selected_finetune_epochs": 15,
+    "dev_fold0_best_val_loss": 0.707907497882843,
+    "dev_fold0_best_val_accuracy": 0.7594223022460938,
+    "image_staging_seconds": 34.815701249000995,
+    "val_search_seconds": 872.7046882169998,
+    "final_refit_seconds": 904.5687629480017,
+    "total_finetuning_seconds": 1777.2734511650015,
+    "test_inference_seconds": 8.850877616998332,
+    "package_versions": {
+      "python": "3.12.16",
+      "tensorflow": "2.21.0",
+      "keras": "3.15.1",
+      "numpy": "2.5.5",
+      "h5py": "3.14.0"
+    }
+  },
+  "fine_tuned_archive_members": {
+    "README_FINETUNING_ADDENDUM.md": {
+      "archive_member": "Sagar_FineTuned_Only_For_Kishore/README_FINETUNING_ADDENDUM.md",
+      "size_bytes": 3214,
+      "sha256": "f116635da13aa29bbbd39252541832eeba8fa51d86eb7f85562f04a7d713a34c"
+    },
+    "finetune_config_and_timings.json": {
+      "archive_member": "Sagar_FineTuned_Only_For_Kishore/data/finetune_config_and_timings.json",
+      "size_bytes": 999,
+      "sha256": "efa499e4758feefaa1099880a19d868dbe20f883102f77ed480fc633c3f9ade3"
+    },
+    "finetuned_results_report.md": {
+      "archive_member": "Sagar_FineTuned_Only_For_Kishore/data/finetuned_results_report.md",
+      "size_bytes": 1001,
+      "sha256": "4c88a3e1cb9b6156a4cbe5197e2db1bc98b0f42bf2adbf79b8ca46d0348aa1ff"
+    },
+    "finetuned_test_confusion_matrix_normalized.csv": {
+      "archive_member": "Sagar_FineTuned_Only_For_Kishore/data/finetuned_test_confusion_matrix_normalized.csv",
+      "size_bytes": 2270,
+      "sha256": "949990b78602716144c18f54a6fd79fab8e676dc527a64d655903e8bf070b384"
+    },
+    "finetuned_test_confusion_matrix_raw.csv": {
+      "archive_member": "Sagar_FineTuned_Only_For_Kishore/data/finetuned_test_confusion_matrix_raw.csv",
+      "size_bytes": 829,
+      "sha256": "858f3f20f75d1b0cb0a87ddb9510164d0a6d1eb01dccf6bcad6725e3bbb7e5ef"
+    },
+    "finetuned_test_metrics.json": {
+      "archive_member": "Sagar_FineTuned_Only_For_Kishore/data/finetuned_test_metrics.json",
+      "size_bytes": 2171,
+      "sha256": "4f06041c1054182982146adcfadf9003cef5865e759d65658d9f265aab3a3079"
+    },
+    "finetuned_test_per_class_metrics.csv": {
+      "archive_member": "Sagar_FineTuned_Only_For_Kishore/data/finetuned_test_per_class_metrics.csv",
+      "size_bytes": 885,
+      "sha256": "0b22afbf6676f9ffe4e51b67b9b57fa238e2a8ed2b0d512238dc49e9c900c8ee"
+    },
+    "finetuned_test_predictions.csv": {
+      "archive_member": "Sagar_FineTuned_Only_For_Kishore/data/finetuned_test_predictions.csv",
+      "size_bytes": 479224,
+      "sha256": "5ed75574d7b0b9ee729f3abb1b8b530416f6b22504081011afa7db0d232da235"
+    },
+    "finetuned_learning_curves.png": {
+      "archive_member": "Sagar_FineTuned_Only_For_Kishore/plots/finetuned_learning_curves.png",
+      "size_bytes": 124926,
+      "sha256": "f82fc4fc10f3a99d8df596cae9cd78a0934e39db31220046723ad8b895697baf"
+    },
+    "finetuned_prediction_gallery.png": {
+      "archive_member": "Sagar_FineTuned_Only_For_Kishore/plots/finetuned_prediction_gallery.png",
+      "size_bytes": 7719086,
+      "sha256": "8423e02c028b2e5de699ae4525e2044d3ce286a2785a7eb00d667a57244edeab"
+    },
+    "finetuned_test_confusion_matrices.png": {
+      "archive_member": "Sagar_FineTuned_Only_For_Kishore/plots/finetuned_test_confusion_matrices.png",
+      "size_bytes": 164001,
+      "sha256": "559775fe1d1eb021b9270ce95b94aade1ca368bf4540df4ad4ab82d1388fab99"
+    }
+  },
+  "fine_tuned_archive_original": "/mnt/c/Users/kisho/Downloads/Sagar_FineTuned_Only_For_Kishore.zip",
+  "phase3_reused": "Shared data and baseline audit, metric functions, pairwise bootstrap and exact group randomization",
+  "bootstrap_streams": "Each pair starts PCG64 at the Phase 3 seed. Pair A exactly reproduces Phase 3. Intervals are marginal.",
+  "computed_sha256": {
+    "audit/alignment_audit.json": "e5ed23484517b73a390e0825d2d046fc0070228d3a2b10380c5afbd97fc9f9d6",
+    "figures/confusion_matrices.pdf": "0987381990a567c95cb885901911a843165cf2349d0c333f7c0d0be92c66486c",
+    "figures/confusion_matrices.png": "aab541b05da105e404f6801c4c68fdac43330fc69fe7486e31b6ebd54e5fd120",
+    "figures/overall_metrics.pdf": "552ffd745737eb23221b0b606157c9a1156b25127f12805f3f3f863cf142955f",
+    "figures/overall_metrics.png": "a9b80d709a949302fca77916c60cd4d986485ee0f8c5707410a8fb120590c87f",
+    "figures/paired_accuracy_intervals.pdf": "d653f41182e08324092e596897a2e0899a182beb3f4a94941e054422a68e6971",
+    "figures/paired_accuracy_intervals.png": "9e58594c9e2413b3802e8f5806913fc7338ef144debde6b8d74a5d5e5c3e53a3",
+    "figures/paired_correctness.pdf": "774090a1ac28f9a100d4310a5202e519113a5db70258571abc743518076855f8",
+    "figures/paired_correctness.png": "b8fb4ccfd37997e2152aa9f95731c3ae8522f3a8b74ed73a4660697f20c6ad9f",
+    "figures/paired_macro_f1_intervals.pdf": "54d6c18abbebb0f8d1b65f34edd803d7619866652bb9dc0b49c147a0356490c1",
+    "figures/paired_macro_f1_intervals.png": "c33e6bd41424ae9571e6d70d371b6199e5f7668b5ca0151c8ff809aa54ef670f",
+    "figures/per_class_f1.pdf": "f23307dc2f47da387a5eeb48c2525588dd3afc216b12b85489322cb8290d82ac",
+    "figures/per_class_f1.png": "b2e0fdde43bc671fd1ea6970b5bda741bd2e6d4a2ad7ee35ff71e40725460344",
+    "figures/per_class_recall.pdf": "29ee04148189da92ebf32459b0176e8bfc4e00490b3d883e17506fe2247bea50",
+    "figures/per_class_recall.png": "93ba5aca09e416a2bc719da30951e020809cedca728b3ab675642c325f19fcf9",
+    "figures/top_confusion_improvements.pdf": "8d19077b7c51987981f6d01ee1cc3f7fbbbe508e8678c1b8dab0aad601b3f540",
+    "figures/top_confusion_improvements.png": "75bda13ca812ef82c064410e754611a289038a54b19007c7b0f1f9995cc42b33",
+    "results/aligned_predictions.csv": "d0f51083974e412904ee2d82e0e817d664c9396dd86813620bcd1cc458abd2f4",
+    "results/comparison_metrics.csv": "0f6a0021fa7fb58d3d4abfd380001cf877e15e15b0ea622cdf4ba18907c9b75f",
+    "results/confusion_changes_after_finetuning.csv": "3cff581599cd813314265d8e53c6de4bc404d772cce9339fefff63efc4bd897e",
+    "results/confusion_finetuned_mobilenetv2_counts.csv": "c89d8779c21fc6d921f628b1acdf19c656d34bcf632f940e92ba90b291cc6f77",
+    "results/confusion_finetuned_mobilenetv2_row_normalized.csv": "b2cc8f3d27eb6a0eff856081ddfcb6592e10681c33b25060b271e242d6aac53f",
+    "results/confusion_frozen_mobilenetv2_counts.csv": "ec6729b06640fca98e2186fa5500bba7d64a8d64230df67127091ed550e156e2",
+    "results/confusion_frozen_mobilenetv2_row_normalized.csv": "c22dedfe2952ce0da879b918fd9236e8ec60bf8e38cb876d99a5f86ab63e6566",
+    "results/confusion_random_forest_counts.csv": "8222803a8f0969d347ea159aac94f3fc04ce3278a66857e959fca80419711c64",
+    "results/confusion_random_forest_row_normalized.csv": "b4577bf0225bce82e49ee0bb916327e2335999b946e2258623ba48d5d13757e9",
+    "results/pairwise_agreement.csv": "205beed579705eb7ac6598a8919d2dbcf27f2f5ad1b377adf4e5d30ddd5ff9a7",
+    "results/pairwise_prediction_disagreements.csv": "587a1ce81ddf3d08fc51fef4e58cf34b999aab6ed350cb260f3258f486958fa3",
+    "results/pairwise_statistical_tests.json": "f2b88c1609f6d772bcaa25b694598857bcdfda125134fe03b3bc6529731d288e",
+    "results/per_class_comparison.csv": "26b1cb72af7761edb876f2f8a46eb4cf617258f478cd31850cc17e07a8cee687"
+  }
+}

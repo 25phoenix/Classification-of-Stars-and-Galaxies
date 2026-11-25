@@ -1,0 +1,607 @@
+[
+  {
+    "fold": "1",
+    "selected_hparams": {
+      "hidden_units": 0,
+      "dropout": 0.2,
+      "learning_rate": 0.001,
+      "l2_reg": 0.0001,
+      "use_class_weight": true
+    },
+    "refit_epochs": 21,
+    "accuracy": 0.5308424391963341,
+    "macro_f1": 0.5152241061388669,
+    "num_val_samples": 2837,
+    "inner_tuning": [
+      {
+        "hparams": {
+          "hidden_units": 0,
+          "dropout": 0.2,
+          "learning_rate": 0.001,
+          "l2_reg": 0.0001,
+          "use_class_weight": false
+        },
+        "fold_val_macro_f1": [
+          0.48852077351471496,
+          0.5078065103079308,
+          0.4963177188088446
+        ],
+        "mean_val_macro_f1": 0.49754833421049677,
+        "fold_best_epochs": [
+          21,
+          23,
+          19
+        ],
+        "refit_epochs_if_selected": 21
+      },
+      {
+        "hparams": {
+          "hidden_units": 0,
+          "dropout": 0.2,
+          "learning_rate": 0.001,
+          "l2_reg": 0.0001,
+          "use_class_weight": true
+        },
+        "fold_val_macro_f1": [
+          0.503002623575869,
+          0.5207288103862412,
+          0.5006873552266573
+        ],
+        "mean_val_macro_f1": 0.5081395963962558,
+        "fold_best_epochs": [
+          37,
+          19,
+          21
+        ],
+        "refit_epochs_if_selected": 21
+      },
+      {
+        "hparams": {
+          "hidden_units": 128,
+          "dropout": 0.3,
+          "learning_rate": 0.001,
+          "l2_reg": 0.0001,
+          "use_class_weight": false
+        },
+        "fold_val_macro_f1": [
+          0.4915547355583009,
+          0.4935201379976107,
+          0.5144026370915983
+        ],
+        "mean_val_macro_f1": 0.49982583688250326,
+        "fold_best_epochs": [
+          19,
+          18,
+          33
+        ],
+        "refit_epochs_if_selected": 19
+      },
+      {
+        "hparams": {
+          "hidden_units": 128,
+          "dropout": 0.3,
+          "learning_rate": 0.001,
+          "l2_reg": 0.0001,
+          "use_class_weight": true
+        },
+        "fold_val_macro_f1": [
+          0.5068271731674349,
+          0.5008904294603348,
+          0.5139906614699232
+        ],
+        "mean_val_macro_f1": 0.5072360880325643,
+        "fold_best_epochs": [
+          29,
+          9,
+          30
+        ],
+        "refit_epochs_if_selected": 29
+      },
+      {
+        "hparams": {
+          "hidden_units": 128,
+          "dropout": 0.4,
+          "learning_rate": 0.0005,
+          "l2_reg": 0.001,
+          "use_class_weight": true
+        },
+        "fold_val_macro_f1": [
+          0.4815247000190549,
+          0.4892533130462332,
+          0.49674247562726925
+        ],
+        "mean_val_macro_f1": 0.4891734962308525,
+        "fold_best_epochs": [
+          24,
+          20,
+          23
+        ],
+        "refit_epochs_if_selected": 23
+      }
+    ]
+  },
+  {
+    "fold": "2",
+    "selected_hparams": {
+      "hidden_units": 0,
+      "dropout": 0.2,
+      "learning_rate": 0.001,
+      "l2_reg": 0.0001,
+      "use_class_weight": true
+    },
+    "refit_epochs": 24,
+    "accuracy": 0.546830985915493,
+    "macro_f1": 0.5198130356683639,
+    "num_val_samples": 2840,
+    "inner_tuning": [
+      {
+        "hparams": {
+          "hidden_units": 0,
+          "dropout": 0.2,
+          "learning_rate": 0.001,
+          "l2_reg": 0.0001,
+          "use_class_weight": false
+        },
+        "fold_val_macro_f1": [
+          0.509687733285982,
+          0.49954564311926164,
+          0.5217949865103308
+        ],
+        "mean_val_macro_f1": 0.5103427876385248,
+        "fold_best_epochs": [
+          24,
+          17,
+          30
+        ],
+        "refit_epochs_if_selected": 24
+      },
+      {
+        "hparams": {
+          "hidden_units": 0,
+          "dropout": 0.2,
+          "learning_rate": 0.001,
+          "l2_reg": 0.0001,
+          "use_class_weight": true
+        },
+        "fold_val_macro_f1": [
+          0.5072283296613355,
+          0.5040158505452716,
+          0.5290076446181919
+        ],
+        "mean_val_macro_f1": 0.5134172749415996,
+        "fold_best_epochs": [
+          30,
+          24,
+          23
+        ],
+        "refit_epochs_if_selected": 24
+      },
+      {
+        "hparams": {
+          "hidden_units": 128,
+          "dropout": 0.3,
+          "learning_rate": 0.001,
+          "l2_reg": 0.0001,
+          "use_class_weight": false
+        },
+        "fold_val_macro_f1": [
+          0.48976193320914885,
+          0.5115868248168208,
+          0.4843594622518889
+        ],
+        "mean_val_macro_f1": 0.4952360734259529,
+        "fold_best_epochs": [
+          10,
+          19,
+          8
+        ],
+        "refit_epochs_if_selected": 10
+      },
+      {
+        "hparams": {
+          "hidden_units": 128,
+          "dropout": 0.3,
+          "learning_rate": 0.001,
+          "l2_reg": 0.0001,
+          "use_class_weight": true
+        },
+        "fold_val_macro_f1": [
+          0.5025959946825148,
+          0.5046954174806204,
+          0.4907079718639774
+        ],
+        "mean_val_macro_f1": 0.49933312800903745,
+        "fold_best_epochs": [
+          20,
+          37,
+          11
+        ],
+        "refit_epochs_if_selected": 20
+      },
+      {
+        "hparams": {
+          "hidden_units": 128,
+          "dropout": 0.4,
+          "learning_rate": 0.0005,
+          "l2_reg": 0.001,
+          "use_class_weight": true
+        },
+        "fold_val_macro_f1": [
+          0.48846608419470927,
+          0.49077204655739487,
+          0.4948485985872118
+        ],
+        "mean_val_macro_f1": 0.4913622431131053,
+        "fold_best_epochs": [
+          17,
+          27,
+          32
+        ],
+        "refit_epochs_if_selected": 27
+      }
+    ]
+  },
+  {
+    "fold": "3",
+    "selected_hparams": {
+      "hidden_units": 0,
+      "dropout": 0.2,
+      "learning_rate": 0.001,
+      "l2_reg": 0.0001,
+      "use_class_weight": true
+    },
+    "refit_epochs": 28,
+    "accuracy": 0.5459668897499119,
+    "macro_f1": 0.5281313126296373,
+    "num_val_samples": 2839,
+    "inner_tuning": [
+      {
+        "hparams": {
+          "hidden_units": 0,
+          "dropout": 0.2,
+          "learning_rate": 0.001,
+          "l2_reg": 0.0001,
+          "use_class_weight": false
+        },
+        "fold_val_macro_f1": [
+          0.4923043936621568,
+          0.49333951380318614,
+          0.5212718385869617
+        ],
+        "mean_val_macro_f1": 0.5023052486841015,
+        "fold_best_epochs": [
+          11,
+          39,
+          39
+        ],
+        "refit_epochs_if_selected": 39
+      },
+      {
+        "hparams": {
+          "hidden_units": 0,
+          "dropout": 0.2,
+          "learning_rate": 0.001,
+          "l2_reg": 0.0001,
+          "use_class_weight": true
+        },
+        "fold_val_macro_f1": [
+          0.5091922722098563,
+          0.5146658301196468,
+          0.5205150840183566
+        ],
+        "mean_val_macro_f1": 0.5147910621159533,
+        "fold_best_epochs": [
+          17,
+          28,
+          29
+        ],
+        "refit_epochs_if_selected": 28
+      },
+      {
+        "hparams": {
+          "hidden_units": 128,
+          "dropout": 0.3,
+          "learning_rate": 0.001,
+          "l2_reg": 0.0001,
+          "use_class_weight": false
+        },
+        "fold_val_macro_f1": [
+          0.5071672243910241,
+          0.5026402038376048,
+          0.5064462720559637
+        ],
+        "mean_val_macro_f1": 0.5054179000948642,
+        "fold_best_epochs": [
+          18,
+          34,
+          20
+        ],
+        "refit_epochs_if_selected": 20
+      },
+      {
+        "hparams": {
+          "hidden_units": 128,
+          "dropout": 0.3,
+          "learning_rate": 0.001,
+          "l2_reg": 0.0001,
+          "use_class_weight": true
+        },
+        "fold_val_macro_f1": [
+          0.4926885941421338,
+          0.4998779000457804,
+          0.49247095967787324
+        ],
+        "mean_val_macro_f1": 0.4950124846219291,
+        "fold_best_epochs": [
+          13,
+          13,
+          17
+        ],
+        "refit_epochs_if_selected": 13
+      },
+      {
+        "hparams": {
+          "hidden_units": 128,
+          "dropout": 0.4,
+          "learning_rate": 0.0005,
+          "l2_reg": 0.001,
+          "use_class_weight": true
+        },
+        "fold_val_macro_f1": [
+          0.511091438613051,
+          0.47121192590068184,
+          0.4935273863806281
+        ],
+        "mean_val_macro_f1": 0.49194358363145363,
+        "fold_best_epochs": [
+          32,
+          28,
+          32
+        ],
+        "refit_epochs_if_selected": 32
+      }
+    ]
+  },
+  {
+    "fold": "4",
+    "selected_hparams": {
+      "hidden_units": 0,
+      "dropout": 0.2,
+      "learning_rate": 0.001,
+      "l2_reg": 0.0001,
+      "use_class_weight": true
+    },
+    "refit_epochs": 24,
+    "accuracy": 0.5484098939929328,
+    "macro_f1": 0.5300085015425096,
+    "num_val_samples": 2830,
+    "inner_tuning": [
+      {
+        "hparams": {
+          "hidden_units": 0,
+          "dropout": 0.2,
+          "learning_rate": 0.001,
+          "l2_reg": 0.0001,
+          "use_class_weight": false
+        },
+        "fold_val_macro_f1": [
+          0.49420527038205064,
+          0.5208033342878816,
+          0.5075948358316309
+        ],
+        "mean_val_macro_f1": 0.5075344801671877,
+        "fold_best_epochs": [
+          24,
+          36,
+          24
+        ],
+        "refit_epochs_if_selected": 24
+      },
+      {
+        "hparams": {
+          "hidden_units": 0,
+          "dropout": 0.2,
+          "learning_rate": 0.001,
+          "l2_reg": 0.0001,
+          "use_class_weight": true
+        },
+        "fold_val_macro_f1": [
+          0.49877890166345995,
+          0.5367421579127156,
+          0.5201472402943562
+        ],
+        "mean_val_macro_f1": 0.5185560999568439,
+        "fold_best_epochs": [
+          18,
+          24,
+          32
+        ],
+        "refit_epochs_if_selected": 24
+      },
+      {
+        "hparams": {
+          "hidden_units": 128,
+          "dropout": 0.3,
+          "learning_rate": 0.001,
+          "l2_reg": 0.0001,
+          "use_class_weight": false
+        },
+        "fold_val_macro_f1": [
+          0.47838608214119455,
+          0.49889906329859957,
+          0.5066392481546738
+        ],
+        "mean_val_macro_f1": 0.4946414645314893,
+        "fold_best_epochs": [
+          10,
+          26,
+          24
+        ],
+        "refit_epochs_if_selected": 24
+      },
+      {
+        "hparams": {
+          "hidden_units": 128,
+          "dropout": 0.3,
+          "learning_rate": 0.001,
+          "l2_reg": 0.0001,
+          "use_class_weight": true
+        },
+        "fold_val_macro_f1": [
+          0.4989533019919061,
+          0.49775607494239243,
+          0.4917086447379897
+        ],
+        "mean_val_macro_f1": 0.4961393405574294,
+        "fold_best_epochs": [
+          22,
+          11,
+          14
+        ],
+        "refit_epochs_if_selected": 14
+      },
+      {
+        "hparams": {
+          "hidden_units": 128,
+          "dropout": 0.4,
+          "learning_rate": 0.0005,
+          "l2_reg": 0.001,
+          "use_class_weight": true
+        },
+        "fold_val_macro_f1": [
+          0.4883930286251409,
+          0.5148789251472922,
+          0.47382068122669097
+        ],
+        "mean_val_macro_f1": 0.4923642116663747,
+        "fold_best_epochs": [
+          26,
+          27,
+          18
+        ],
+        "refit_epochs_if_selected": 26
+      }
+    ]
+  },
+  {
+    "fold": "5",
+    "selected_hparams": {
+      "hidden_units": 0,
+      "dropout": 0.2,
+      "learning_rate": 0.001,
+      "l2_reg": 0.0001,
+      "use_class_weight": true
+    },
+    "refit_epochs": 16,
+    "accuracy": 0.5123152709359606,
+    "macro_f1": 0.4889251231191906,
+    "num_val_samples": 2842,
+    "inner_tuning": [
+      {
+        "hparams": {
+          "hidden_units": 0,
+          "dropout": 0.2,
+          "learning_rate": 0.001,
+          "l2_reg": 0.0001,
+          "use_class_weight": false
+        },
+        "fold_val_macro_f1": [
+          0.5177419364914595,
+          0.5053459138560517,
+          0.5011283264417188
+        ],
+        "mean_val_macro_f1": 0.5080720589297433,
+        "fold_best_epochs": [
+          27,
+          23,
+          20
+        ],
+        "refit_epochs_if_selected": 23
+      },
+      {
+        "hparams": {
+          "hidden_units": 0,
+          "dropout": 0.2,
+          "learning_rate": 0.001,
+          "l2_reg": 0.0001,
+          "use_class_weight": true
+        },
+        "fold_val_macro_f1": [
+          0.5232211064562896,
+          0.5139847609831859,
+          0.5083995841065644
+        ],
+        "mean_val_macro_f1": 0.5152018171820133,
+        "fold_best_epochs": [
+          16,
+          12,
+          18
+        ],
+        "refit_epochs_if_selected": 16
+      },
+      {
+        "hparams": {
+          "hidden_units": 128,
+          "dropout": 0.3,
+          "learning_rate": 0.001,
+          "l2_reg": 0.0001,
+          "use_class_weight": false
+        },
+        "fold_val_macro_f1": [
+          0.5140312555458134,
+          0.4954066983930086,
+          0.49940328621477736
+        ],
+        "mean_val_macro_f1": 0.5029470800511998,
+        "fold_best_epochs": [
+          18,
+          21,
+          12
+        ],
+        "refit_epochs_if_selected": 18
+      },
+      {
+        "hparams": {
+          "hidden_units": 128,
+          "dropout": 0.3,
+          "learning_rate": 0.001,
+          "l2_reg": 0.0001,
+          "use_class_weight": true
+        },
+        "fold_val_macro_f1": [
+          0.48831098674426043,
+          0.5158313105776791,
+          0.4902570600850904
+        ],
+        "mean_val_macro_f1": 0.4981331191356766,
+        "fold_best_epochs": [
+          16,
+          30,
+          25
+        ],
+        "refit_epochs_if_selected": 25
+      },
+      {
+        "hparams": {
+          "hidden_units": 128,
+          "dropout": 0.4,
+          "learning_rate": 0.0005,
+          "l2_reg": 0.001,
+          "use_class_weight": true
+        },
+        "fold_val_macro_f1": [
+          0.5066057825680317,
+          0.4983211777090113,
+          0.4949077602186778
+        ],
+        "mean_val_macro_f1": 0.4999449068319069,
+        "fold_best_epochs": [
+          30,
+          21,
+          36
+        ],
+        "refit_epochs_if_selected": 30
+      }
+    ]
+  }
+]

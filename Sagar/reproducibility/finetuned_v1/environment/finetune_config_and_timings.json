@@ -1,0 +1,29 @@
+{
+  "experiment_type": "optional_two_stage_end_to_end_finetuning",
+  "preprocessing": "rgb_uint8_0_255 -> tf.image.resize(bilinear) -> tf.keras.applications.mobilenet_v2.preprocess_input(-1_to_1)",
+  "mixed_precision_float16": true,
+  "augmentation_active_training_only": true,
+  "batchnorm_frozen": true,
+  "batch_size": 16,
+  "warmup_epochs": 5,
+  "warmup_lr": 0.001,
+  "unfreeze_top_layers": 40,
+  "unfrozen_non_bn_layers": 27,
+  "finetune_lr": 0.0001,
+  "use_class_weight": false,
+  "selected_finetune_epochs": 15,
+  "dev_fold0_best_val_loss": 0.707907497882843,
+  "dev_fold0_best_val_accuracy": 0.7594223022460938,
+  "image_staging_seconds": 34.815701249000995,
+  "val_search_seconds": 872.7046882169998,
+  "final_refit_seconds": 904.5687629480017,
+  "total_finetuning_seconds": 1777.2734511650015,
+  "test_inference_seconds": 8.850877616998332,
+  "package_versions": {
+    "python": "3.12.16",
+    "tensorflow": "2.21.0",
+    "keras": "3.15.1",
+    "numpy": "2.5.5",
+    "h5py": "3.14.0"
+  }
+}

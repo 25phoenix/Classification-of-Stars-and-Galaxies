@@ -1,0 +1,91 @@
+rf_id,rf_class,mobile_id,mobile_class,count
+2,Round Smooth Galaxies,3,In-between Round Smooth Galaxies,108
+1,Merging Galaxies,7,Unbarred Loose Spiral Galaxies,97
+5,Barred Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,95
+3,In-between Round Smooth Galaxies,2,Round Smooth Galaxies,85
+5,Barred Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,80
+6,Unbarred Tight Spiral Galaxies,7,Unbarred Loose Spiral Galaxies,80
+1,Merging Galaxies,2,Round Smooth Galaxies,69
+7,Unbarred Loose Spiral Galaxies,6,Unbarred Tight Spiral Galaxies,65
+9,Edge-on Galaxies with Bulge,8,Edge-on Galaxies without Bulge,62
+8,Edge-on Galaxies without Bulge,9,Edge-on Galaxies with Bulge,61
+0,Disturbed Galaxies,7,Unbarred Loose Spiral Galaxies,58
+6,Unbarred Tight Spiral Galaxies,5,Barred Spiral Galaxies,51
+7,Unbarred Loose Spiral Galaxies,5,Barred Spiral Galaxies,49
+1,Merging Galaxies,3,In-between Round Smooth Galaxies,48
+1,Merging Galaxies,6,Unbarred Tight Spiral Galaxies,47
+1,Merging Galaxies,9,Edge-on Galaxies with Bulge,40
+2,Round Smooth Galaxies,6,Unbarred Tight Spiral Galaxies,40
+3,In-between Round Smooth Galaxies,7,Unbarred Loose Spiral Galaxies,36
+2,Round Smooth Galaxies,1,Merging Galaxies,33
+7,Unbarred Loose Spiral Galaxies,3,In-between Round Smooth Galaxies,31
+1,Merging Galaxies,5,Barred Spiral Galaxies,28
+0,Disturbed Galaxies,3,In-between Round Smooth Galaxies,26
+7,Unbarred Loose Spiral Galaxies,0,Disturbed Galaxies,26
+6,Unbarred Tight Spiral Galaxies,2,Round Smooth Galaxies,24
+7,Unbarred Loose Spiral Galaxies,1,Merging Galaxies,24
+7,Unbarred Loose Spiral Galaxies,2,Round Smooth Galaxies,23
+2,Round Smooth Galaxies,7,Unbarred Loose Spiral Galaxies,22
+4,Cigar Shaped Smooth Galaxies,9,Edge-on Galaxies with Bulge,22
+3,In-between Round Smooth Galaxies,6,Unbarred Tight Spiral Galaxies,21
+3,In-between Round Smooth Galaxies,1,Merging Galaxies,20
+6,Unbarred Tight Spiral Galaxies,1,Merging Galaxies,20
+6,Unbarred Tight Spiral Galaxies,3,In-between Round Smooth Galaxies,20
+9,Edge-on Galaxies with Bulge,7,Unbarred Loose Spiral Galaxies,20
+0,Disturbed Galaxies,1,Merging Galaxies,18
+0,Disturbed Galaxies,2,Round Smooth Galaxies,17
+5,Barred Spiral Galaxies,3,In-between Round Smooth Galaxies,16
+3,In-between Round Smooth Galaxies,5,Barred Spiral Galaxies,15
+7,Unbarred Loose Spiral Galaxies,9,Edge-on Galaxies with Bulge,15
+9,Edge-on Galaxies with Bulge,1,Merging Galaxies,14
+3,In-between Round Smooth Galaxies,9,Edge-on Galaxies with Bulge,13
+5,Barred Spiral Galaxies,1,Merging Galaxies,12
+1,Merging Galaxies,8,Edge-on Galaxies without Bulge,11
+4,Cigar Shaped Smooth Galaxies,3,In-between Round Smooth Galaxies,11
+5,Barred Spiral Galaxies,2,Round Smooth Galaxies,11
+0,Disturbed Galaxies,9,Edge-on Galaxies with Bulge,10
+1,Merging Galaxies,0,Disturbed Galaxies,10
+2,Round Smooth Galaxies,5,Barred Spiral Galaxies,10
+9,Edge-on Galaxies with Bulge,3,In-between Round Smooth Galaxies,10
+6,Unbarred Tight Spiral Galaxies,9,Edge-on Galaxies with Bulge,9
+8,Edge-on Galaxies without Bulge,7,Unbarred Loose Spiral Galaxies,8
+3,In-between Round Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,7
+8,Edge-on Galaxies without Bulge,6,Unbarred Tight Spiral Galaxies,7
+9,Edge-on Galaxies with Bulge,4,Cigar Shaped Smooth Galaxies,7
+0,Disturbed Galaxies,5,Barred Spiral Galaxies,6
+0,Disturbed Galaxies,6,Unbarred Tight Spiral Galaxies,6
+4,Cigar Shaped Smooth Galaxies,1,Merging Galaxies,6
+9,Edge-on Galaxies with Bulge,5,Barred Spiral Galaxies,6
+2,Round Smooth Galaxies,0,Disturbed Galaxies,5
+3,In-between Round Smooth Galaxies,0,Disturbed Galaxies,5
+4,Cigar Shaped Smooth Galaxies,6,Unbarred Tight Spiral Galaxies,5
+4,Cigar Shaped Smooth Galaxies,7,Unbarred Loose Spiral Galaxies,5
+4,Cigar Shaped Smooth Galaxies,5,Barred Spiral Galaxies,4
+5,Barred Spiral Galaxies,9,Edge-on Galaxies with Bulge,4
+6,Unbarred Tight Spiral Galaxies,0,Disturbed Galaxies,4
+6,Unbarred Tight Spiral Galaxies,4,Cigar Shaped Smooth Galaxies,4
+8,Edge-on Galaxies without Bulge,1,Merging Galaxies,4
+9,Edge-on Galaxies with Bulge,2,Round Smooth Galaxies,4
+4,Cigar Shaped Smooth Galaxies,8,Edge-on Galaxies without Bulge,3
+9,Edge-on Galaxies with Bulge,0,Disturbed Galaxies,3
+9,Edge-on Galaxies with Bulge,6,Unbarred Tight Spiral Galaxies,3
+0,Disturbed Galaxies,4,Cigar Shaped Smooth Galaxies,2
+2,Round Smooth Galaxies,9,Edge-on Galaxies with Bulge,2
+4,Cigar Shaped Smooth Galaxies,0,Disturbed Galaxies,2
+5,Barred Spiral Galaxies,0,Disturbed Galaxies,2
+5,Barred Spiral Galaxies,4,Cigar Shaped Smooth Galaxies,2
+5,Barred Spiral Galaxies,8,Edge-on Galaxies without Bulge,2
+7,Unbarred Loose Spiral Galaxies,8,Edge-on Galaxies without Bulge,2
+0,Disturbed Galaxies,8,Edge-on Galaxies without Bulge,1
+7,Unbarred Loose Spiral Galaxies,4,Cigar Shaped Smooth Galaxies,1
+8,Edge-on Galaxies without Bulge,2,Round Smooth Galaxies,1
+1,Merging Galaxies,4,Cigar Shaped Smooth Galaxies,0
+2,Round Smooth Galaxies,4,Cigar Shaped Smooth Galaxies,0
+2,Round Smooth Galaxies,8,Edge-on Galaxies without Bulge,0
+3,In-between Round Smooth Galaxies,8,Edge-on Galaxies without Bulge,0
+4,Cigar Shaped Smooth Galaxies,2,Round Smooth Galaxies,0
+6,Unbarred Tight Spiral Galaxies,8,Edge-on Galaxies without Bulge,0
+8,Edge-on Galaxies without Bulge,0,Disturbed Galaxies,0
+8,Edge-on Galaxies without Bulge,3,In-between Round Smooth Galaxies,0
+8,Edge-on Galaxies without Bulge,4,Cigar Shaped Smooth Galaxies,0
+8,Edge-on Galaxies without Bulge,5,Barred Spiral Galaxies,0

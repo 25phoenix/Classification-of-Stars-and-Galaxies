@@ -1,0 +1,22 @@
+{
+  "serialized_backbone_dtype_policies": {
+    "float32": 155
+  },
+  "serialized_head_dtype_policy": "float32",
+  "serialized_dropout_dtype_policy": "float32",
+  "saved_optimizer_class": "Adam",
+  "saved_schedule_class": "CosineDecay",
+  "saved_schedule_configuration": {
+    "initial_learning_rate": 0.0001,
+    "decay_steps": 13305,
+    "alpha": 0.1,
+    "name": "CosineDecay",
+    "warmup_target": null,
+    "warmup_steps": 0
+  },
+  "saved_optimizer_iterations": 13320,
+  "config_reports_training_mixed_float16": true,
+  "dtype_discrepancy": "Saved layer configs use float32, while the archived configuration reports mixed_float16 training. The handoff provides no export log explaining the difference.",
+  "step_discrepancy": "The saved iteration counter is 15 greater than the saved cosine schedule decay_steps; the cause is unverified.",
+  "class_order_evidence": "Softmax indices are defined by the archived source class mapping and the published metrics. Class names are external to the Keras graph."
+}

@@ -1,0 +1,11 @@
+,0: Disturbed Galaxies,1: Merging Galaxies,2: Round Smooth Galaxies,3: In-between Round Smooth Galaxies,4: Cigar Shaped Smooth Galaxies,5: Barred Spiral Galaxies,6: Unbarred Tight Spiral Galaxies,7: Unbarred Loose Spiral Galaxies,8: Edge-on Galaxies without Bulge,9: Edge-on Galaxies with Bulge
+0: Disturbed Galaxies,247,68,84,115,42,47,78,123,14,46
+1: Merging Galaxies,70,740,193,146,43,50,67,76,17,81
+2: Round Smooth Galaxies,81,155,1468,291,5,10,71,18,2,15
+3: In-between Round Smooth Galaxies,89,119,264,983,62,20,18,38,1,27
+4: Cigar Shaped Smooth Galaxies,9,12,5,37,152,5,2,3,4,40
+5: Barred Spiral Galaxies,170,86,32,94,32,680,286,209,13,32
+6: Unbarred Tight Spiral Galaxies,108,66,75,42,20,210,747,159,19,17
+7: Unbarred Loose Spiral Galaxies,317,151,87,151,60,308,360,588,27,53
+8: Edge-on Galaxies without Bulge,18,16,1,1,17,4,16,6,864,195
+9: Edge-on Galaxies with Bulge,24,71,14,47,71,7,7,11,98,1148

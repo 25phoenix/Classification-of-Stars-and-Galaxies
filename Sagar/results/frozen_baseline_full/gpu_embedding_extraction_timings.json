@@ -1,0 +1,9 @@
+{
+  "preprocessing_seconds": 7.059134791896213,
+  "embedding_extraction_seconds": 38.9324959370133,
+  "embedding_cache_hit": false,
+  "head_training_seconds": 447.410674245024,
+  "optional_finetuning_seconds": 0.0,
+  "total_inference_seconds": 6.593970552974497,
+  "test_inference_seconds": 1.1281072910060175
+}

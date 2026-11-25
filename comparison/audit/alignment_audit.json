@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "join_key": "row_id",
+  "join": "validated one-to-one",
+  "test_rows": 3545,
+  "eligible_rows": 17733,
+  "development_rows": 14188,
+  "class_mapping": {
+    "0": "Disturbed Galaxies",
+    "1": "Merging Galaxies",
+    "2": "Round Smooth Galaxies",
+    "3": "In-between Round Smooth Galaxies",
+    "4": "Cigar Shaped Smooth Galaxies",
+    "5": "Barred Spiral Galaxies",
+    "6": "Unbarred Tight Spiral Galaxies",
+    "7": "Unbarred Loose Spiral Galaxies",
+    "8": "Edge-on Galaxies without Bulge",
+    "9": "Edge-on Galaxies with Bulge"
+  },
+  "unique_test_ids_per_export": 3545,
+  "missing_ids": 0,
+  "duplicate_ids": 0,
+  "true_label_mismatches": 0,
+  "test_groups": 3535,
+  "test_group_size_distribution": {
+    "1": 3525,
+    "2": 10
+  },
+  "shared_development_test_groups": 0,
+  "eligible_labels_checked_against_hdf5": true,
+  "test_group_ids_match_features_and_rf_export": true,
+  "probability_argmax_matches": true,
+  "probability_max_sum_error": {
+    "Random Forest": 6.661338147750939e-16,
+    "MobileNetV2": 1.8350000008382494e-07
+  },
+  "development_oof_comparison": "Outside the held-out analysis scope",
+  "rf_prediction_origin": "Saved forest column, verified against published SHA-256 and metrics",
+  "test_inference_executed": false,
+  "rf_saved_metrics_and_confusion_match": true,
+  "mobile_saved_accuracy_macro_f1_and_count_match": true
+}

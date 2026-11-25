@@ -1,0 +1,18 @@
+# Local environments and caches
+**/.venv/
+**/__pycache__/
+**/cache/
+tmp/
+
+# Raw source data and oversized generated intermediates
+Kishore/data/raw/
+Kishore/paper_replication/data/raw/
+Kishore/paper_replication/results/*/splits.json
+Kishore/paper_replication/results/*/sample_manifest.csv
+Kishore/paper_replication/results/*/unambiguous_dr7_metadata.csv
+
+# Local credentials if added during future work
+**/.env
+**/.env.*
+**/*.pem
+**/*.key

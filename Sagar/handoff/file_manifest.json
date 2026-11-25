@@ -1,0 +1,292 @@
+{
+  "context": {
+    "workspace": "/mnt/c/Acads/4th_year/1st_sem/DOP",
+    "scope": "Sagar handoff integration and read-only artifact verification, 2026-11-24 (workspace date)",
+    "python": "3.10.12",
+    "hash_algorithm": "SHA-256 over exact file bytes",
+    "paths_relative_to": "Sagar",
+    "self_exclusion": "The manifest excludes its own size and SHA-256 because embedding its own digest changes the file.",
+    "actions": "Actions record how each file entered the organized tree. Identical files are left in place on a repeat run.",
+    "archive_only_bytecode": [
+      "src/__pycache__/__init__.cpython-312.pyc",
+      "src/__pycache__/config.cpython-312.pyc",
+      "src/__pycache__/train_baseline.cpython-312.pyc",
+      "src/__pycache__/evaluation.cpython-312.pyc",
+      "src/__pycache__/model_head.cpython-312.pyc",
+      "src/__pycache__/data_contract.cpython-312.pyc",
+      "src/__pycache__/embeddings.cpython-312.pyc",
+      "src/__pycache__/__init__.cpython-313.pyc",
+      "src/__pycache__/infer.cpython-313.pyc",
+      "src/__pycache__/infer.cpython-312.pyc"
+    ]
+  },
+  "unresolved_conflicts": [],
+  "files": [
+    {
+      "relative_path": "PROJECT_GUIDE.md",
+      "size_bytes": 6064,
+      "sha256": "1e78ac5d9521b7351e5b153730d12a69eb7593c7d4b14859947e5af3678c4f62",
+      "origin": "pre-existing Sagar/PROJECT_GUIDE.md",
+      "action": "left unchanged"
+    },
+    {
+      "relative_path": "Sagar_Handoff_For_Kishore.zip",
+      "size_bytes": 9363989,
+      "sha256": "fd33786b6418bf3be1617e510378cf161f31d275e30d5d39d5e596bbd91b3b6d",
+      "origin": "pre-existing Sagar/Sagar_Handoff_For_Kishore.zip",
+      "action": "left unchanged"
+    },
+    {
+      "relative_path": "Star_Galaxy_Classification_Colab.ipynb",
+      "size_bytes": 39022,
+      "sha256": "54b358febed0246f293ba79c51056f824e03e3f17b7e97e42ef88b98722a5f8c",
+      "origin": "pre-existing Sagar/Star_Galaxy_Classification_Colab.ipynb",
+      "action": "left unchanged"
+    },
+    {
+      "relative_path": "handoff/HANDOFF_VERIFICATION.md",
+      "size_bytes": 12695,
+      "sha256": "b95c7649e9423476dee4d659f7eed11c95e4f3466be444f9a99f6bcb303bf028",
+      "origin": "generated from local archive, source, prediction and contract checks",
+      "action": "generated"
+    },
+    {
+      "relative_path": "head_model.keras",
+      "size_bytes": 174208,
+      "sha256": "1a6e5b762824993907414162694b5f285c86e56f2b66e553192cc1e1c51437c8",
+      "origin": "pre-existing Sagar/head_model.keras",
+      "action": "left unchanged"
+    },
+    {
+      "relative_path": "head_model.keras.zip",
+      "size_bytes": 174208,
+      "sha256": "1a6e5b762824993907414162694b5f285c86e56f2b66e553192cc1e1c51437c8",
+      "origin": "pre-existing Sagar/head_model.keras.zip",
+      "action": "left unchanged"
+    },
+    {
+      "relative_path": "results/frozen_baseline_full/final_tuning_results.json",
+      "size_bytes": 3911,
+      "sha256": "e32d9cb772ec6162a6f93846852cecc9921eee80a251690b81a3077d9d0b675f",
+      "origin": "Sagar_Handoff_For_Kishore.zip!/Sagar_Handoff_For_Kishore/final_tuning_results.json",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "results/frozen_baseline_full/gpu_embedding_extraction_timings.json",
+      "size_bytes": 311,
+      "sha256": "2afbd3cc4fe037545f42b38085bd8e2b332b30348cb1738329833889bfa1987e",
+      "origin": "Sagar_Handoff_For_Kishore.zip!/Sagar_Handoff_For_Kishore/gpu_embedding_extraction_timings.json",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "results/frozen_baseline_full/head_model.keras",
+      "size_bytes": 174208,
+      "sha256": "1a6e5b762824993907414162694b5f285c86e56f2b66e553192cc1e1c51437c8",
+      "origin": "pre-existing Sagar/head_model.keras (identical to head_model.keras.zip)",
+      "action": "copied"
+    },
+    {
+      "relative_path": "results/frozen_baseline_full/learning_curves.png",
+      "size_bytes": 221835,
+      "sha256": "09142337a9826c02acdab860eaa1d0d6e2a7135bf86ec42419e051f2e093ad9c",
+      "origin": "Sagar_Handoff_For_Kishore.zip!/Sagar_Handoff_For_Kishore/learning_curves.png",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "results/frozen_baseline_full/model_config.json",
+      "size_bytes": 1123,
+      "sha256": "d4c3b5d0e4b4d827a147093d65a87de3ed55102dd32d277c2683b345386b0913",
+      "origin": "Sagar_Handoff_For_Kishore.zip!/Sagar_Handoff_For_Kishore/model_config.json",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "results/frozen_baseline_full/oof_confusion_matrices.png",
+      "size_bytes": 193262,
+      "sha256": "88bc19a5c61ffa6ad7facc9419e11670d3d7a5c20540605eb026c8614ec91c95",
+      "origin": "Sagar_Handoff_For_Kishore.zip!/Sagar_Handoff_For_Kishore/oof_confusion_matrices.png",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "results/frozen_baseline_full/oof_confusion_matrix_normalized.csv",
+      "size_bytes": 2617,
+      "sha256": "98f37621cc1db8ecae6e9d42d18d5fa2a62e48728078ae0d61457e1360d25675",
+      "origin": "Sagar_Handoff_For_Kishore.zip!/Sagar_Handoff_For_Kishore/oof_confusion_matrix_normalized.csv",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "results/frozen_baseline_full/oof_confusion_matrix_raw.csv",
+      "size_bytes": 906,
+      "sha256": "1c3827eca9770ea707c4120d3e7999abd38eff7c4e9125df7d4e02e2dcce0664",
+      "origin": "Sagar_Handoff_For_Kishore.zip!/Sagar_Handoff_For_Kishore/oof_confusion_matrix_raw.csv",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "results/frozen_baseline_full/oof_metrics.json",
+      "size_bytes": 2246,
+      "sha256": "438f729268e9928816e9b2a360f4a669a66d21941bb6e2c8bffb4c56337fdffd",
+      "origin": "Sagar_Handoff_For_Kishore.zip!/Sagar_Handoff_For_Kishore/oof_metrics.json",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "results/frozen_baseline_full/oof_per_class_metrics.csv",
+      "size_bytes": 959,
+      "sha256": "46c88d78b1745e20f8b6752b93f9b8d4266c9086eecf233d12e731320fa27229",
+      "origin": "Sagar_Handoff_For_Kishore.zip!/Sagar_Handoff_For_Kishore/oof_per_class_metrics.csv",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "results/frozen_baseline_full/oof_predictions.csv",
+      "size_bytes": 1829588,
+      "sha256": "21367466eb562875696c670072de20a83bf1d12b113d052acc89151f4a5387e4",
+      "origin": "Sagar_Handoff_For_Kishore.zip!/Sagar_Handoff_For_Kishore/oof_predictions.csv",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "results/frozen_baseline_full/outer_fold_results.json",
+      "size_bytes": 14322,
+      "sha256": "7dfe33f3d8f4c1a373904b33a8eb70796760ac830a1203af0c905cb1336dc5de",
+      "origin": "Sagar_Handoff_For_Kishore.zip!/Sagar_Handoff_For_Kishore/outer_fold_results.json",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "results/frozen_baseline_full/prediction_gallery.png",
+      "size_bytes": 7868674,
+      "sha256": "abce17409da5721435750490357619275e08617cf2dfefdbd8a70684154ad639",
+      "origin": "Sagar_Handoff_For_Kishore.zip!/Sagar_Handoff_For_Kishore/prediction_gallery.png",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "results/frozen_baseline_full/provenance.json",
+      "size_bytes": 946,
+      "sha256": "f3e0a7097e49d99b30ea856dc23d772a87d918d26c2a6cf731458273ab1b20f3",
+      "origin": "Sagar_Handoff_For_Kishore.zip!/Sagar_Handoff_For_Kishore/provenance.json",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "results/frozen_baseline_full/results_report.md",
+      "size_bytes": 2816,
+      "sha256": "dfd243286abcfcd5f511da9d5f2fde39e6efe8bcb1002c884fc985ee820b1aac",
+      "origin": "Sagar_Handoff_For_Kishore.zip!/Sagar_Handoff_For_Kishore/results_report.md",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "results/frozen_baseline_full/test_confusion_matrices.png",
+      "size_bytes": 179171,
+      "sha256": "1bf41f08e745cb5f072c1d1d69be1bdbadc865f4e205e33de03ab4f174b6fb84",
+      "origin": "Sagar_Handoff_For_Kishore.zip!/Sagar_Handoff_For_Kishore/test_confusion_matrices.png",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "results/frozen_baseline_full/test_confusion_matrix_normalized.csv",
+      "size_bytes": 2469,
+      "sha256": "59c62c60796391b0ea23af91512ecc8c661106fec2a030a19286734be0ec9416",
+      "origin": "Sagar_Handoff_For_Kishore.zip!/Sagar_Handoff_For_Kishore/test_confusion_matrix_normalized.csv",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "results/frozen_baseline_full/test_confusion_matrix_raw.csv",
+      "size_bytes": 848,
+      "sha256": "30bf3b39b0e448f7d49d91efbb29d3c2a150988ae94a77ee34334816d1c5da16",
+      "origin": "Sagar_Handoff_For_Kishore.zip!/Sagar_Handoff_For_Kishore/test_confusion_matrix_raw.csv",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "results/frozen_baseline_full/test_metrics.json",
+      "size_bytes": 2224,
+      "sha256": "6ca1c1bdf61ae49ecf87b53bab7b7d6a344dc68f0169f2198cb29a00180c8279",
+      "origin": "Sagar_Handoff_For_Kishore.zip!/Sagar_Handoff_For_Kishore/test_metrics.json",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "results/frozen_baseline_full/test_per_class_metrics.csv",
+      "size_bytes": 938,
+      "sha256": "2849924ebcd49636e82947e02eefcad71ec32cbe87b89202de6f2aec64f987a7",
+      "origin": "Sagar_Handoff_For_Kishore.zip!/Sagar_Handoff_For_Kishore/test_per_class_metrics.csv",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "results/frozen_baseline_full/test_predictions.csv",
+      "size_bytes": 457346,
+      "sha256": "3cd387d4317e78e835ad951b4804128ef28ae540aaa550b28f1dc2e6a14273e6",
+      "origin": "Sagar_Handoff_For_Kishore.zip!/Sagar_Handoff_For_Kishore/test_predictions.csv",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "results/frozen_baseline_full/timings.json",
+      "size_bytes": 287,
+      "sha256": "bc6fda8924a1572824f7a67fb620e36a8e99fb1c5bdf513103c55e484cf18179",
+      "origin": "Sagar_Handoff_For_Kishore.zip!/Sagar_Handoff_For_Kishore/timings.json",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "src.zip",
+      "size_bytes": 79869,
+      "sha256": "c7e3c1499c409e148b55bdf7ccfd3024b015ad3d63fd3c2d02f6b42e3798bdbb",
+      "origin": "pre-existing Sagar/src.zip",
+      "action": "left unchanged"
+    },
+    {
+      "relative_path": "src/__init__.py",
+      "size_bytes": 64,
+      "sha256": "e1e5bbec98b38cfd2cb5f1c2dbaa5efc15cf72ae1de1b5626e872f8b87d0c20c",
+      "origin": "src.zip!/src/__init__.py",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "src/config.py",
+      "size_bytes": 2602,
+      "sha256": "621baebfada1cb9b5d641ac6e47f20fd800cca8a9637547aaf053831915a2a9e",
+      "origin": "src.zip!/src/config.py",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "src/data_contract.py",
+      "size_bytes": 19849,
+      "sha256": "848612c27a25198811f09c889625d4e8887933f725b819537dd4540766d993ce",
+      "origin": "src.zip!/src/data_contract.py",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "src/embeddings.py",
+      "size_bytes": 8211,
+      "sha256": "2158c4fdf918ed172ed53aa80eb0ce68af6390b101ec4710efb5ffe967840dc7",
+      "origin": "src.zip!/src/embeddings.py",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "src/evaluation.py",
+      "size_bytes": 12633,
+      "sha256": "dc99b6165b6ac9c6e2b5e11790d8f1734717d46dbccfdf8db019919ff555acf3",
+      "origin": "src.zip!/src/evaluation.py",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "src/finetune_optional.py",
+      "size_bytes": 7961,
+      "sha256": "e75ec8e89ef218d800a89b4aaa19a1d326295329aac9324d4db12c2bc8007f6a",
+      "origin": "src.zip!/src/finetune_optional.py",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "src/infer.py",
+      "size_bytes": 2961,
+      "sha256": "3ee6ff981230d6dd77af0cabe516a260b6de14b37680d4bf7055a6061bc70d07",
+      "origin": "src.zip!/src/infer.py",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "src/model_head.py",
+      "size_bytes": 6545,
+      "sha256": "e49d0109664ea3b468bb7330bb816fbf36b7b217bbea0d8d38f8086c538b158d",
+      "origin": "src.zip!/src/model_head.py",
+      "action": "extracted"
+    },
+    {
+      "relative_path": "src/train_baseline.py",
+      "size_bytes": 16243,
+      "sha256": "241e9f845c4f5b42fe96da63eaa67d5f22091a90ae95fd80e49c10151dc74696",
+      "origin": "src.zip!/src/train_baseline.py",
+      "action": "extracted"
+    }
+  ]
+}

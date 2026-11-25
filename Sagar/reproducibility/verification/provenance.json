@@ -1,0 +1,104 @@
+{
+  "archive": "Sagar/Sagar_FineTuned_Model_And_Code_Archive.zip",
+  "archive_sha256": "576f6eec43e094e1a5e87d19f52e337a210a9822b24801d37941a0ed93d83072",
+  "installed_model": "Sagar/results/finetuned_mobilenetv2/finetuned_model.keras",
+  "model_sha256": "142efcacd36ba4b95d0956abf3a43d326bc6195ffe5bbbb08c7e1bbfb6efd0a1",
+  "members": {
+    "Sagar_FineTuned_Model_And_Code_Archive/README.md": {
+      "path": "Sagar/reproducibility/finetuned_v1/README.md",
+      "sha256": "c7e90bbe3bb9b8895d31572baa7e36f85a32976e1d25ac07d1be9005f6446b85",
+      "size_bytes": 3746
+    },
+    "Sagar_FineTuned_Model_And_Code_Archive/code/Sagar/src/__init__.py": {
+      "path": "Sagar/reproducibility/finetuned_v1/code/Sagar/src/__init__.py",
+      "sha256": "e1e5bbec98b38cfd2cb5f1c2dbaa5efc15cf72ae1de1b5626e872f8b87d0c20c",
+      "size_bytes": 64
+    },
+    "Sagar_FineTuned_Model_And_Code_Archive/code/Sagar/src/config.py": {
+      "path": "Sagar/reproducibility/finetuned_v1/code/Sagar/src/config.py",
+      "sha256": "621baebfada1cb9b5d641ac6e47f20fd800cca8a9637547aaf053831915a2a9e",
+      "size_bytes": 2602
+    },
+    "Sagar_FineTuned_Model_And_Code_Archive/code/Sagar/src/data_contract.py": {
+      "path": "Sagar/reproducibility/finetuned_v1/code/Sagar/src/data_contract.py",
+      "sha256": "848612c27a25198811f09c889625d4e8887933f725b819537dd4540766d993ce",
+      "size_bytes": 19849
+    },
+    "Sagar_FineTuned_Model_And_Code_Archive/code/Sagar/src/embeddings.py": {
+      "path": "Sagar/reproducibility/finetuned_v1/code/Sagar/src/embeddings.py",
+      "sha256": "2158c4fdf918ed172ed53aa80eb0ce68af6390b101ec4710efb5ffe967840dc7",
+      "size_bytes": 8211
+    },
+    "Sagar_FineTuned_Model_And_Code_Archive/code/Sagar/src/evaluation.py": {
+      "path": "Sagar/reproducibility/finetuned_v1/code/Sagar/src/evaluation.py",
+      "sha256": "dc99b6165b6ac9c6e2b5e11790d8f1734717d46dbccfdf8db019919ff555acf3",
+      "size_bytes": 12633
+    },
+    "Sagar_FineTuned_Model_And_Code_Archive/code/Sagar/src/finetune_optional.py": {
+      "path": "Sagar/reproducibility/finetuned_v1/code/Sagar/src/finetune_optional.py",
+      "sha256": "b0ae594c29e1971a46c3f5d68a84780a266391929e8f0fe8709c6d7be900aa30",
+      "size_bytes": 19257
+    },
+    "Sagar_FineTuned_Model_And_Code_Archive/code/Sagar/src/infer.py": {
+      "path": "Sagar/reproducibility/finetuned_v1/code/Sagar/src/infer.py",
+      "sha256": "3ee6ff981230d6dd77af0cabe516a260b6de14b37680d4bf7055a6061bc70d07",
+      "size_bytes": 2961
+    },
+    "Sagar_FineTuned_Model_And_Code_Archive/code/Sagar/src/model_head.py": {
+      "path": "Sagar/reproducibility/finetuned_v1/code/Sagar/src/model_head.py",
+      "sha256": "e49d0109664ea3b468bb7330bb816fbf36b7b217bbea0d8d38f8086c538b158d",
+      "size_bytes": 6545
+    },
+    "Sagar_FineTuned_Model_And_Code_Archive/code/Sagar/src/train_baseline.py": {
+      "path": "Sagar/reproducibility/finetuned_v1/code/Sagar/src/train_baseline.py",
+      "sha256": "241e9f845c4f5b42fe96da63eaa67d5f22091a90ae95fd80e49c10151dc74696",
+      "size_bytes": 16243
+    },
+    "Sagar_FineTuned_Model_And_Code_Archive/environment/finetune_config_and_timings.json": {
+      "path": "Sagar/reproducibility/finetuned_v1/environment/finetune_config_and_timings.json",
+      "sha256": "efa499e4758feefaa1099880a19d868dbe20f883102f77ed480fc633c3f9ade3",
+      "size_bytes": 999
+    },
+    "Sagar_FineTuned_Model_And_Code_Archive/environment/requirements_freeze.txt": {
+      "path": "Sagar/reproducibility/finetuned_v1/environment/requirements_freeze.txt",
+      "sha256": "7f58749354fc0e55129f92d62434bd429d6140d47ba114cbbdbda0e806816ce9",
+      "size_bytes": 1230
+    },
+    "Sagar_FineTuned_Model_And_Code_Archive/model/finetuned_model.keras": {
+      "path": "Sagar/reproducibility/finetuned_v1/model/finetuned_model.keras",
+      "sha256": "142efcacd36ba4b95d0956abf3a43d326bc6195ffe5bbbb08c7e1bbfb6efd0a1",
+      "size_bytes": 23106602
+    }
+  },
+  "source_matches_baseline": {
+    "__init__.py": true,
+    "config.py": true,
+    "data_contract.py": true,
+    "embeddings.py": true,
+    "evaluation.py": true,
+    "finetune_optional.py": false,
+    "infer.py": true,
+    "model_head.py": true,
+    "train_baseline.py": true
+  },
+  "keras_members_sha256": {
+    "metadata.json": "807899969f2591ac4f15efa87b03f9cd643b92ae9afb3f165f1e94b9c967ca15",
+    "config.json": "689884b3a15347a33f84529a74aba03006d5d79a321881984c65733acee523ce",
+    "model.weights.h5": "5c0b8ca0050585ce2b509048f4f55e685ee1541965ba02b6fc77917645e3310c"
+  },
+  "data_contract_hashes": {
+    "dataset_sha256": "19aefc477c41bb7f77ff07599a6b82a038dc042f889a111b0d4d98bb755c1571",
+    "dataset_manifest_sha256": "e9d22ccd6a948e25330ade871255a0b1d3770d246cdc7dc791454b284fe5e69e",
+    "splits_manifest_sha256": "3019bad56d5014490366510d2956c82d1da74effb2ac0dd025088cb3c08ca884",
+    "assignments_csv_sha256": "47e842d5a31837db8fe43f852b3d5f83e3ffc9ee79398b7a528bb88bf93a3de8"
+  },
+  "dataset_path": "/mnt/c/Acads/4th_year/1st_sem/DOP/Kishore/data/raw/Galaxy10_DECals.h5",
+  "contract_paths": {
+    "dataset_json": "/mnt/c/Acads/4th_year/1st_sem/DOP/Kishore/results/final/dataset.json",
+    "splits_json": "/mnt/c/Acads/4th_year/1st_sem/DOP/Kishore/results/final/splits.json",
+    "assignments_csv": "/mnt/c/Acads/4th_year/1st_sem/DOP/Kishore/results/final/split_assignments.csv"
+  },
+  "reference_predictions_sha256": "5ed75574d7b0b9ee729f3abb1b8b530416f6b22504081011afa7db0d232da235",
+  "reference_metrics_sha256": "4f06041c1054182982146adcfadf9003cef5865e759d65658d9f265aab3a3079",
+  "verification_script_sha256": "877d6d98050c4d121d0d84af68ac8536e3bf0b4def6b92f2d33fa7e6ef56bf99"
+}

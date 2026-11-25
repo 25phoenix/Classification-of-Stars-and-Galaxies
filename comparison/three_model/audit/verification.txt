@@ -1,0 +1,1 @@
+PASS · 3,545 locked rows, 3,535 groups, all metrics and matrices, three exact test pairs, Holm correction, interval directions, exact Phase 3 match, fingerprints, and eight figure pairs.

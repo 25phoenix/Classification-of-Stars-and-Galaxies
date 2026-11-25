@@ -1,0 +1,4 @@
+pair,first_model,second_model,both_correct,both_wrong,first_only_correct,second_only_correct,agreement_count,agreement_fraction,disagreement_count,accuracy_difference
+A,Random Forest,Frozen MobileNetV2,1334,923,625,663,1689,0.4764456981664316,1856,0.010719322990127012
+B,Random Forest,Fine-Tuned MobileNetV2,1701,585,258,1001,1942,0.5478138222849083,1603,0.2095909732016925
+C,Frozen MobileNetV2,Fine-Tuned MobileNetV2,1806,652,191,896,2170,0.61212976022567,1375,0.1988716502115655

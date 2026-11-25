@@ -1,0 +1,138 @@
+[
+  {
+    "title": "Classification of Stars and Galaxies",
+    "section": "OPENING"
+  },
+  {
+    "title": "Why galaxy morphology matters",
+    "section": "MOTIVATION"
+  },
+  {
+    "title": "Research questions",
+    "section": "PROJECT SCOPE"
+  },
+  {
+    "title": "Two experimental tracks",
+    "section": "PROJECT MAP"
+  },
+  {
+    "title": "Galaxy10 DECaLS dataset",
+    "section": "DATA"
+  },
+  {
+    "title": "Shared split and model selection",
+    "section": "METHOD"
+  },
+  {
+    "title": "Seven morphological features",
+    "section": "KISHORE / CLASSICAL ML"
+  },
+  {
+    "title": "Random Forest model selection",
+    "section": "KISHORE / CLASSICAL ML"
+  },
+  {
+    "title": "Frozen MobileNetV2 representation",
+    "section": "SAGAR / DEEP LEARNING"
+  },
+  {
+    "title": "Nested evaluation of frozen embeddings",
+    "section": "SAGAR / DEEP LEARNING"
+  },
+  {
+    "title": "Two-stage MobileNetV2 adaptation",
+    "section": "SAGAR / DEEP LEARNING"
+  },
+  {
+    "title": "Training-time image augmentation",
+    "section": "SAGAR / DEEP LEARNING"
+  },
+  {
+    "title": "Fine-tuning learning curves",
+    "section": "SAGAR / DEEP LEARNING"
+  },
+  {
+    "title": "Held-out test performance",
+    "section": "THREE-MODEL COMPARISON"
+  },
+  {
+    "title": "Class-balanced metrics",
+    "section": "THREE-MODEL COMPARISON"
+  },
+  {
+    "title": "F1 across ten morphologies",
+    "section": "THREE-MODEL COMPARISON"
+  },
+  {
+    "title": "Error structure on the locked test",
+    "section": "THREE-MODEL COMPARISON"
+  },
+  {
+    "title": "Disturbed galaxies remain difficult",
+    "section": "THREE-MODEL COMPARISON"
+  },
+  {
+    "title": "Paired accuracy differences",
+    "section": "STATISTICAL ANALYSIS"
+  },
+  {
+    "title": "What the model comparison supports",
+    "section": "INTERPRETATION"
+  },
+  {
+    "title": "Barchi / SDSS DR7 reconstruction",
+    "section": "LITERATURE TRACK"
+  },
+  {
+    "title": "DR7 sample selection changes the task",
+    "section": "LITERATURE TRACK"
+  },
+  {
+    "title": "DR7 held-out results",
+    "section": "LITERATURE TRACK"
+  },
+  {
+    "title": "How the tracks relate",
+    "section": "SYNTHESIS"
+  },
+  {
+    "title": "Scientific limitations",
+    "section": "DISCUSSION"
+  },
+  {
+    "title": "Conclusions",
+    "section": "TAKEAWAYS"
+  },
+  {
+    "title": "Future experiments",
+    "section": "NEXT STEPS"
+  },
+  {
+    "title": "Thank you / references",
+    "section": "CLOSING"
+  },
+  {
+    "title": "Random Forest implementation details",
+    "section": "APPENDIX"
+  },
+  {
+    "title": "MobileNetV2 configuration",
+    "section": "APPENDIX"
+  },
+  {
+    "title": "Per-class F1 and support",
+    "section": "APPENDIX"
+  },
+  {
+    "title": "Paired inference details",
+    "section": "APPENDIX"
+  },
+  {
+    "title": "DR7 reconstruction details",
+    "section": "APPENDIX"
+  },
+  {
+    "title": "Fine-tuned prediction gallery",
+    "section": "APPENDIX"
+  }
+]

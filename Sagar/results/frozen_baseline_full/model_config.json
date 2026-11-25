@@ -1,0 +1,32 @@
+{
+  "experiment_type": "frozen_mobilenetv2_baseline",
+  "mode": "full",
+  "exploratory_reduced_protocol": false,
+  "backbone": "tf.keras.applications.MobileNetV2",
+  "weights": "imagenet",
+  "weights_fingerprint_sha256": "c009b1f1262c1f55420ed4f95d0f338acb97548930c6f6c8f3383b79544088a8",
+  "image_size": 224,
+  "preprocessing": "rgb_uint8_0_255 -> tf.image.resize(bilinear) -> tf.keras.applications.mobilenet_v2.preprocess_input(-1_to_1)",
+  "augmentation_active": false,
+  "selected_hparams": {
+    "hidden_units": 0,
+    "dropout": 0.2,
+    "learning_rate": 0.001,
+    "l2_reg": 0.0001,
+    "use_class_weight": false
+  },
+  "refit_epochs": 18,
+  "refit_epoch_rule": "ceil(median(final_tuning_fold_best_epochs))",
+  "class_names": {
+    "0": "Disturbed Galaxies",
+    "1": "Merging Galaxies",
+    "2": "Round Smooth Galaxies",
+    "3": "In-between Round Smooth Galaxies",
+    "4": "Cigar Shaped Smooth Galaxies",
+    "5": "Barred Spiral Galaxies",
+    "6": "Unbarred Tight Spiral Galaxies",
+    "7": "Unbarred Loose Spiral Galaxies",
+    "8": "Edge-on Galaxies without Bulge",
+    "9": "Edge-on Galaxies with Bulge"
+  }
+}

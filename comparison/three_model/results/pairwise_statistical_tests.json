@@ -1,0 +1,223 @@
+{
+  "holm_family": "Three two-sided exact row-level McNemar accuracy tests (A, B, C).",
+  "phase3_pair_a": "Exact agreement for p-values and bootstrap interval endpoints.",
+  "interval_adjustment": "Marginal 95% percentile intervals; no multiplicity adjustment.",
+  "pairs": {
+    "A": {
+      "difference_direction": "Frozen MobileNetV2 minus Random Forest",
+      "rows": 3545,
+      "paired_outcomes": {
+        "both_correct": 1334,
+        "both_wrong": 923,
+        "first_only_correct": 625,
+        "second_only_correct": 663
+      },
+      "prediction_agreement_count": 1689,
+      "prediction_agreement_fraction": 0.4764456981664316,
+      "mcnemar": {
+        "method": "Exact two-sided conditional binomial test",
+        "total_discordant": 1288,
+        "p_value": 0.30255544058640055,
+        "assumption": "Independent row pairs and equal orientations of discordance under the null.",
+        "first_only_correct": 625,
+        "second_only_correct": 663,
+        "holm_adjusted_p_value": 0.30255544058640055
+      },
+      "preferred_group_bootstrap": {
+        "seed": 20261124,
+        "rng": "NumPy default_rng (PCG64)",
+        "replicates": 20000,
+        "groups": 3535,
+        "confidence_level": 0.95,
+        "method": "Percentile intervals. Uniformly sample groups with replacement, drawing the original number of groups. Retain all rows and both predictions in each sampled group. Replicate row counts may vary.",
+        "estimand": "Row-weighted accuracy and fixed-ten-class Macro-F1 differences, conditional on the fitted models.",
+        "intervals": {
+          "accuracy": {
+            "estimate": 0.010719322990127012,
+            "lower": -0.009019165727170209,
+            "upper": 0.03018335684062057
+          },
+          "macro_f1": {
+            "estimate": 0.004529602156199464,
+            "lower": -0.018673324572211946,
+            "upper": 0.027478875082362818
+          }
+        }
+      },
+      "group_randomization_sensitivity": {
+        "method": "Exact two-sided within-group model-label swap for accuracy",
+        "groups_with_nonzero_signed_difference": 1284,
+        "absolute_group_difference_frequencies": {
+          "1": 1284
+        },
+        "p_value": 0.30180345117547375,
+        "assumption": "Joint model labels are exchangeable within independent groups under the null.",
+        "observed_net_correct_second_minus_first": 38
+      },
+      "first_model": "Random Forest",
+      "second_model": "Frozen MobileNetV2",
+      "disagreeing_labels": 1856,
+      "largest_class_f1_differences": [
+        {
+          "class_id": 0,
+          "class_name": "Disturbed Galaxies",
+          "difference": -0.09341637010676157
+        },
+        {
+          "class_id": 9,
+          "class_name": "Edge-on Galaxies with Bulge",
+          "difference": 0.09172995064556733
+        },
+        {
+          "class_id": 6,
+          "class_name": "Unbarred Tight Spiral Galaxies",
+          "difference": 0.07939085119491335
+        }
+      ]
+    },
+    "B": {
+      "difference_direction": "Fine-Tuned MobileNetV2 minus Random Forest",
+      "rows": 3545,
+      "paired_outcomes": {
+        "both_correct": 1701,
+        "both_wrong": 585,
+        "first_only_correct": 258,
+        "second_only_correct": 1001
+      },
+      "prediction_agreement_count": 1942,
+      "prediction_agreement_fraction": 0.5478138222849083,
+      "mcnemar": {
+        "method": "Exact two-sided conditional binomial test",
+        "total_discordant": 1259,
+        "p_value": 1.5067951321117995e-103,
+        "assumption": "Independent row pairs and equal orientations of discordance under the null.",
+        "first_only_correct": 258,
+        "second_only_correct": 1001,
+        "holm_adjusted_p_value": 3.013590264223599e-103
+      },
+      "preferred_group_bootstrap": {
+        "seed": 20261124,
+        "rng": "NumPy default_rng (PCG64)",
+        "replicates": 20000,
+        "groups": 3535,
+        "confidence_level": 0.95,
+        "method": "Percentile intervals. Uniformly sample groups with replacement, drawing the original number of groups. Retain all rows and both predictions in each sampled group. Replicate row counts may vary.",
+        "estimand": "Row-weighted accuracy and fixed-ten-class Macro-F1 differences, conditional on the fitted models.",
+        "intervals": {
+          "accuracy": {
+            "estimate": 0.2095909732016925,
+            "lower": 0.19169883992706704,
+            "upper": 0.22799159097676241
+          },
+          "macro_f1": {
+            "estimate": 0.21639785136615786,
+            "lower": 0.1953958594827789,
+            "upper": 0.23786698267215153
+          }
+        }
+      },
+      "group_randomization_sensitivity": {
+        "method": "Exact two-sided within-group model-label swap for accuracy",
+        "groups_with_nonzero_signed_difference": 1255,
+        "absolute_group_difference_frequencies": {
+          "1": 1255
+        },
+        "p_value": 6.386520935602509e-104,
+        "assumption": "Joint model labels are exchangeable within independent groups under the null.",
+        "observed_net_correct_second_minus_first": 743
+      },
+      "first_model": "Random Forest",
+      "second_model": "Fine-Tuned MobileNetV2",
+      "disagreeing_labels": 1603,
+      "largest_class_f1_differences": [
+        {
+          "class_id": 4,
+          "class_name": "Cigar Shaped Smooth Galaxies",
+          "difference": 0.3493568781338565
+        },
+        {
+          "class_id": 5,
+          "class_name": "Barred Spiral Galaxies",
+          "difference": 0.30912243264870637
+        },
+        {
+          "class_id": 1,
+          "class_name": "Merging Galaxies",
+          "difference": 0.23706462147744234
+        }
+      ]
+    },
+    "C": {
+      "difference_direction": "Fine-Tuned MobileNetV2 minus Frozen MobileNetV2",
+      "rows": 3545,
+      "paired_outcomes": {
+        "both_correct": 1806,
+        "both_wrong": 652,
+        "first_only_correct": 191,
+        "second_only_correct": 896
+      },
+      "prediction_agreement_count": 2170,
+      "prediction_agreement_fraction": 0.61212976022567,
+      "mcnemar": {
+        "method": "Exact two-sided conditional binomial test",
+        "total_discordant": 1087,
+        "p_value": 1.3290277383035028e-109,
+        "assumption": "Independent row pairs and equal orientations of discordance under the null.",
+        "first_only_correct": 191,
+        "second_only_correct": 896,
+        "holm_adjusted_p_value": 3.9870832149105083e-109
+      },
+      "preferred_group_bootstrap": {
+        "seed": 20261124,
+        "rng": "NumPy default_rng (PCG64)",
+        "replicates": 20000,
+        "groups": 3535,
+        "confidence_level": 0.95,
+        "method": "Percentile intervals. Uniformly sample groups with replacement, drawing the original number of groups. Retain all rows and both predictions in each sampled group. Replicate row counts may vary.",
+        "estimand": "Row-weighted accuracy and fixed-ten-class Macro-F1 differences, conditional on the fitted models.",
+        "intervals": {
+          "accuracy": {
+            "estimate": 0.1988716502115655,
+            "lower": 0.18171557562076746,
+            "upper": 0.21617812852311158
+          },
+          "macro_f1": {
+            "estimate": 0.2118682492099584,
+            "lower": 0.19048220750274594,
+            "upper": 0.2336440749532564
+          }
+        }
+      },
+      "group_randomization_sensitivity": {
+        "method": "Exact two-sided within-group model-label swap for accuracy",
+        "groups_with_nonzero_signed_difference": 1085,
+        "absolute_group_difference_frequencies": {
+          "1": 1085
+        },
+        "p_value": 7.698264052472836e-110,
+        "assumption": "Joint model labels are exchangeable within independent groups under the null.",
+        "observed_net_correct_second_minus_first": 705
+      },
+      "first_model": "Frozen MobileNetV2",
+      "second_model": "Fine-Tuned MobileNetV2",
+      "disagreeing_labels": 1375,
+      "largest_class_f1_differences": [
+        {
+          "class_id": 1,
+          "class_name": "Merging Galaxies",
+          "difference": 0.3137061568568418
+        },
+        {
+          "class_id": 5,
+          "class_name": "Barred Spiral Galaxies",
+          "difference": 0.31043124960586654
+        },
+        {
+          "class_id": 4,
+          "class_name": "Cigar Shaped Smooth Galaxies",
+          "difference": 0.30536130536130535
+        }
+      ]
+    }
+  }
+}
